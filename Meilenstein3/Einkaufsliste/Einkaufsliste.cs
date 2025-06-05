@@ -1,5 +1,3 @@
-using System.Security.Cryptography.X509Certificates;
-
 namespace Meilenstein3;
 
 public class Einkaufsliste_Node
