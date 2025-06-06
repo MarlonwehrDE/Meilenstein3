@@ -1,0 +1,11 @@
+C:\Users\BEN\RiderProjects\Meilsenstein3_WPF\Meilenstein3.Einkaufsliste\bin\Debug\net8.0-windows\Meilenstein3.Einkaufsliste.deps.json
+C:\Users\BEN\RiderProjects\Meilsenstein3_WPF\Meilenstein3.Einkaufsliste\bin\Debug\net8.0-windows\Meilenstein3.Einkaufsliste.dll
+C:\Users\BEN\RiderProjects\Meilsenstein3_WPF\Meilenstein3.Einkaufsliste\bin\Debug\net8.0-windows\Meilenstein3.Einkaufsliste.pdb
+C:\Users\BEN\RiderProjects\Meilsenstein3_WPF\Meilenstein3.Einkaufsliste\obj\Debug\net8.0-windows\Meilenstein3.Einkaufsliste.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BEN\RiderProjects\Meilsenstein3_WPF\Meilenstein3.Einkaufsliste\obj\Debug\net8.0-windows\Meilenstein3.Einkaufsliste.AssemblyInfoInputs.cache
+C:\Users\BEN\RiderProjects\Meilsenstein3_WPF\Meilenstein3.Einkaufsliste\obj\Debug\net8.0-windows\Meilenstein3.Einkaufsliste.AssemblyInfo.cs
+C:\Users\BEN\RiderProjects\Meilsenstein3_WPF\Meilenstein3.Einkaufsliste\obj\Debug\net8.0-windows\Meilenstein3.Einkaufsliste.csproj.CoreCompileInputs.cache
+C:\Users\BEN\RiderProjects\Meilsenstein3_WPF\Meilenstein3.Einkaufsliste\obj\Debug\net8.0-windows\Meilenstein3.Einkaufsliste.dll
+C:\Users\BEN\RiderProjects\Meilsenstein3_WPF\Meilenstein3.Einkaufsliste\obj\Debug\net8.0-windows\refint\Meilenstein3.Einkaufsliste.dll
+C:\Users\BEN\RiderProjects\Meilsenstein3_WPF\Meilenstein3.Einkaufsliste\obj\Debug\net8.0-windows\Meilenstein3.Einkaufsliste.pdb
+C:\Users\BEN\RiderProjects\Meilsenstein3_WPF\Meilenstein3.Einkaufsliste\obj\Debug\net8.0-windows\ref\Meilenstein3.Einkaufsliste.dll

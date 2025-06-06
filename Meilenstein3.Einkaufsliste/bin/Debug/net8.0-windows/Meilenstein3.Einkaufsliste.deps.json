@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Meilenstein3.Einkaufsliste/1.0.0": {
+        "runtime": {
+          "Meilenstein3.Einkaufsliste.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Meilenstein3.Einkaufsliste/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
