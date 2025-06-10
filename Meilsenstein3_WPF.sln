@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meilenstein3.Einkaufsliste"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meilenstein3.Aufgaben", "Meilenstein3.Aufgaben\Meilenstein3.Aufgaben.csproj", "{3638CAC8-0B67-4AFF-8518-0ADA3215C3BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meilenstein3.Finanzmanager", "Meilenstein3.Finanzmanager\Meilenstein3.Finanzmanager.csproj", "{4594236C-AC73-42AE-9A50-E6B5A4C3F1FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{3638CAC8-0B67-4AFF-8518-0ADA3215C3BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3638CAC8-0B67-4AFF-8518-0ADA3215C3BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3638CAC8-0B67-4AFF-8518-0ADA3215C3BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4594236C-AC73-42AE-9A50-E6B5A4C3F1FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4594236C-AC73-42AE-9A50-E6B5A4C3F1FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4594236C-AC73-42AE-9A50-E6B5A4C3F1FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4594236C-AC73-42AE-9A50-E6B5A4C3F1FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
