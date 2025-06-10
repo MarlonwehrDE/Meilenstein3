@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Meilenstein3.Einkaufsliste
-build_property.ProjectDir = C:\Users\BEN\RiderProjects\Meilsenstein3_WPF\Meilenstein3.Einkaufsliste\
+build_property.ProjectDir = C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.Einkaufsliste\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

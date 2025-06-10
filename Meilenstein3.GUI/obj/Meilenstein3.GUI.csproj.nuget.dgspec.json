@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BEN\\RiderProjects\\Meilsenstein3_WPF\\Meilenstein3.GUI\\Meilenstein3.GUI.csproj": {}
+    "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.GUI\\Meilenstein3.GUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BEN\\RiderProjects\\Meilsenstein3_WPF\\Meilenstein3.Einkaufsliste\\Meilenstein3.Einkaufsliste.csproj": {
+    "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Einkaufsliste\\Meilenstein3.Einkaufsliste.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BEN\\RiderProjects\\Meilsenstein3_WPF\\Meilenstein3.Einkaufsliste\\Meilenstein3.Einkaufsliste.csproj",
+        "projectUniqueName": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Einkaufsliste\\Meilenstein3.Einkaufsliste.csproj",
         "projectName": "Meilenstein3.Einkaufsliste",
-        "projectPath": "C:\\Users\\BEN\\RiderProjects\\Meilsenstein3_WPF\\Meilenstein3.Einkaufsliste\\Meilenstein3.Einkaufsliste.csproj",
+        "projectPath": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Einkaufsliste\\Meilenstein3.Einkaufsliste.csproj",
         "packagesPath": "C:\\Users\\BEN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BEN\\RiderProjects\\Meilsenstein3_WPF\\Meilenstein3.Einkaufsliste\\obj\\",
+        "outputPath": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Einkaufsliste\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "G:\\AppData\\NuGet\\NuGet.Config"
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\BEN\\RiderProjects\\Meilsenstein3_WPF\\Meilenstein3.GUI\\Meilenstein3.GUI.csproj": {
+    "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.GUI\\Meilenstein3.GUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BEN\\RiderProjects\\Meilsenstein3_WPF\\Meilenstein3.GUI\\Meilenstein3.GUI.csproj",
+        "projectUniqueName": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.GUI\\Meilenstein3.GUI.csproj",
         "projectName": "Meilenstein3.GUI",
-        "projectPath": "C:\\Users\\BEN\\RiderProjects\\Meilsenstein3_WPF\\Meilenstein3.GUI\\Meilenstein3.GUI.csproj",
+        "projectPath": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.GUI\\Meilenstein3.GUI.csproj",
         "packagesPath": "C:\\Users\\BEN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BEN\\RiderProjects\\Meilsenstein3_WPF\\Meilenstein3.GUI\\obj\\",
+        "outputPath": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.GUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "G:\\AppData\\NuGet\\NuGet.Config"
@@ -87,8 +87,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\BEN\\RiderProjects\\Meilsenstein3_WPF\\Meilenstein3.Einkaufsliste\\Meilenstein3.Einkaufsliste.csproj": {
-                "projectPath": "C:\\Users\\BEN\\RiderProjects\\Meilsenstein3_WPF\\Meilenstein3.Einkaufsliste\\Meilenstein3.Einkaufsliste.csproj"
+              "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Einkaufsliste\\Meilenstein3.Einkaufsliste.csproj": {
+                "projectPath": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Einkaufsliste\\Meilenstein3.Einkaufsliste.csproj"
               }
             }
           }

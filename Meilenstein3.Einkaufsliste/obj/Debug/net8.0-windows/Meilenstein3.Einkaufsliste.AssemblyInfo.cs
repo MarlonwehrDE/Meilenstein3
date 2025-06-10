@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Meilenstein3.Einkaufsliste")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2df80c875986ffcedabac70c7b539f9e11eaacd4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Meilenstein3.Einkaufsliste")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Meilenstein3.Einkaufsliste")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
