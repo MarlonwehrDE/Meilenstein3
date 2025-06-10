@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Meilenstein3.GUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ac47363a0e7726d998824cafc3fa6ed08dfc49e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7b5d2cea9f02546d9bd6b97b8e472bdc51e84af")]
 [assembly: System.Reflection.AssemblyProductAttribute("Meilenstein3.GUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Meilenstein3.GUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Meilenstein3.GUI")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Meilenstein3.Aufgaben")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0ac47363a0e7726d998824cafc3fa6ed08dfc49e")]
-[assembly: System.Reflection.AssemblyProductAttribute("Meilenstein3.GUI")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Meilenstein3.GUI")]
+[assembly: System.Reflection.AssemblyProductAttribute("Meilenstein3.Aufgaben")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Meilenstein3.Aufgaben")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
