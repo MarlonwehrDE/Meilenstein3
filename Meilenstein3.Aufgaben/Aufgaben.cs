@@ -1,30 +1,30 @@
-using System;
-
-
-namespace Meilenstein3.Aufgaben;
-
-public class Aufgaben
+public class Aufgabe
 {
-    DateTime _frequenzy = DateTime.Now - new TimeSpan(24, 0, 1);
-    private DateTime _lastDone;
-    string aufgabenBezeichnung;
+    private TimeSpan _frequenz;       
+    private DateTime _lastDone;        
+    public string AufgabenBezeichnung { get; set; }
 
-    public Aufgaben()
+    public Aufgabe(string bezeichnung, TimeSpan frequenz)
     {
-        
+        AufgabenBezeichnung = bezeichnung;
+        _frequenz = frequenz;
+        _lastDone = DateTime.MinValue; 
     }
-    
-   
 
-    public void AufgabeErledigt()
+    public bool KannErledigtWerden()
     {
-        if (_frequenzy < _lastDone)
+        return (DateTime.Now - _lastDone) >= _frequenz;
+    }
+
+    public bool AufgabeErledigt()
+    {
+        if (KannErledigtWerden())
         {
             _lastDone = DateTime.Now;
+            return true;
         }
-        
+        return false;
     }
-    
-    
-    
+
+    public DateTime LetztesMalErledigt => _lastDone;
 }
