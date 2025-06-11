@@ -1,10 +1,7 @@
 using System.Windows;
-using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Windows.Controls;
 using Meilenstein3.Einkaufsliste;
-using System.Linq;
+
 
 namespace Meilenstein3.GUI;
 

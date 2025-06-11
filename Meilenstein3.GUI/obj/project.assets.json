@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net8.0-windows7.0": {
+      "Meilenstein3.Aufgaben/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Meilenstein3.Aufgaben.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Meilenstein3.Aufgaben.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "Meilenstein3.Einkaufsliste/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -14,19 +27,44 @@
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
         ]
+      },
+      "Meilenstein3.Finanzmanager/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Meilenstein3.Finanzmanager.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Meilenstein3.Finanzmanager.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
       }
     }
   },
   "libraries": {
+    "Meilenstein3.Aufgaben/1.0.0": {
+      "type": "project",
+      "path": "../Meilenstein3.Aufgaben/Meilenstein3.Aufgaben.csproj",
+      "msbuildProject": "../Meilenstein3.Aufgaben/Meilenstein3.Aufgaben.csproj"
+    },
     "Meilenstein3.Einkaufsliste/1.0.0": {
       "type": "project",
       "path": "../Meilenstein3.Einkaufsliste/Meilenstein3.Einkaufsliste.csproj",
       "msbuildProject": "../Meilenstein3.Einkaufsliste/Meilenstein3.Einkaufsliste.csproj"
+    },
+    "Meilenstein3.Finanzmanager/1.0.0": {
+      "type": "project",
+      "path": "../Meilenstein3.Finanzmanager/Meilenstein3.Finanzmanager.csproj",
+      "msbuildProject": "../Meilenstein3.Finanzmanager/Meilenstein3.Finanzmanager.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
-      "Meilenstein3.Einkaufsliste >= 1.0.0"
+      "Meilenstein3.Aufgaben >= 1.0.0",
+      "Meilenstein3.Einkaufsliste >= 1.0.0",
+      "Meilenstein3.Finanzmanager >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -54,8 +92,14 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
+            "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Aufgaben\\Meilenstein3.Aufgaben.csproj": {
+              "projectPath": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Aufgaben\\Meilenstein3.Aufgaben.csproj"
+            },
             "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Einkaufsliste\\Meilenstein3.Einkaufsliste.csproj": {
               "projectPath": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Einkaufsliste\\Meilenstein3.Einkaufsliste.csproj"
+            },
+            "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Finanzmanager\\Meilenstein3.Finanzmanager.csproj": {
+              "projectPath": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Finanzmanager\\Meilenstein3.Finanzmanager.csproj"
             }
           }
         }

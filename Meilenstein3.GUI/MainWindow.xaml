@@ -10,6 +10,7 @@
         
         <StackPanel Orientation="Horizontal" VerticalAlignment="Top">
             <Button Content = "Einkaufsliste" Margin="10" Click="Einkaufsliste_Click" />
+            <Button Content = "Finanzmanager" Margin = "10" Click="Finanzmanager_Click"/>
             
         </StackPanel>
         

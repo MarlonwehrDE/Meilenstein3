@@ -9,12 +9,12 @@ public class Transaktion
     public double Betrag { get; set; }
     public string Beschreibung { get; set; } = "";
     public DateTime Datum { get; set; } = DateTime.Now;
-
-  
 }
 
 public class FinanzManager
 {
+    
+    public double Kontostand  { get; set; }
     public List<Transaktion> Transaktionen { get; set; } = new ();
 
     public void NeueEinnahme(double betrag, string beschreibung)
@@ -26,6 +26,7 @@ public class FinanzManager
             istAusgabe = false,
         };
         
+        Kontostand += betrag;
         Transaktionen.Add(transaktion);
     }
 
@@ -39,7 +40,7 @@ public class FinanzManager
             Beschreibung = beschreibung,
             istAusgabe = true,
         };
-        
+        Kontostand -= betrag;
         Transaktionen.Add(transaktion);
 
     }

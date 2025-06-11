@@ -26,5 +26,10 @@ public partial class MainWindow : Window
     {
         MainFrame.Navigate(new EinkaufslistePage());
     }
+
+    private void Finanzmanager_Click(object sender, RoutedEventArgs e)
+    {
+        MainFrame.Navigate(new FinanzmanagerPage());
+    }
     
 }

@@ -1,0 +1,12 @@
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.Aufgaben\bin\Debug\net8.0-windows\Meilenstein3.Aufgaben.deps.json
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.Aufgaben\bin\Debug\net8.0-windows\Meilenstein3.Aufgaben.dll
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.Aufgaben\bin\Debug\net8.0-windows\Meilenstein3.Aufgaben.pdb
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.Aufgaben\obj\Debug\net8.0-windows\Meilenstein3.Aufgaben.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.Aufgaben\obj\Debug\net8.0-windows\Meilenstein3.Aufgaben.AssemblyInfoInputs.cache
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.Aufgaben\obj\Debug\net8.0-windows\Meilenstein3.Aufgaben.AssemblyInfo.cs
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.Aufgaben\obj\Debug\net8.0-windows\Meilenstein3.Aufgaben.csproj.CoreCompileInputs.cache
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.Aufgaben\obj\Debug\net8.0-windows\Meilenstein3.Aufgaben.sourcelink.json
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.Aufgaben\obj\Debug\net8.0-windows\Meilenstein3.Aufgaben.dll
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.Aufgaben\obj\Debug\net8.0-windows\refint\Meilenstein3.Aufgaben.dll
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.Aufgaben\obj\Debug\net8.0-windows\Meilenstein3.Aufgaben.pdb
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.Aufgaben\obj\Debug\net8.0-windows\ref\Meilenstein3.Aufgaben.dll

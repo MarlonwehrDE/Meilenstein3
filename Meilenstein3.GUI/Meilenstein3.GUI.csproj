@@ -9,7 +9,9 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\Meilenstein3.Aufgaben\Meilenstein3.Aufgaben.csproj" />
       <ProjectReference Include="..\Meilenstein3.Einkaufsliste\Meilenstein3.Einkaufsliste.csproj" />
+      <ProjectReference Include="..\Meilenstein3.Finanzmanager\Meilenstein3.Finanzmanager.csproj" />
     </ItemGroup>
 
 </Project>

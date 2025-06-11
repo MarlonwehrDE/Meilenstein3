@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Meilenstein3.Aufgaben")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7e5a3e5d800effe44bcc44de0306677d5a75acc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+727c1e355d2ab3e2febfadd31700e06419a18315")]
 [assembly: System.Reflection.AssemblyProductAttribute("Meilenstein3.Aufgaben")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Meilenstein3.Aufgaben")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
