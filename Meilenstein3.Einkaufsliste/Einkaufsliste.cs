@@ -126,7 +126,9 @@ public class Einkaufsliste : INotifyPropertyChanged
             throw new NullReferenceException("Artikel nicht in der Einkaufsliste gefunden!");
         }
     }
-
+/* Durch die Properties nicht mehr nötig!!
+ 
+ 
     public void ChangeQuantity(Einkaufsliste_Node artikel, int quantity)
     {
         if (MeineEinkaufsliste.Contains(artikel))
@@ -182,6 +184,7 @@ public class Einkaufsliste : INotifyPropertyChanged
             Console.WriteLine($"{artikel.Artikelbezeichnung} ({artikel.Kategorie}) - {artikel.Menge} Stück, Preis: {artikel.Preis} Euro");
         }
     }
+    */
     
     public List<Einkaufsliste_Node> ToList()
     {

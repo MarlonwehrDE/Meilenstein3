@@ -1,37 +1,36 @@
+using System.Collections.ObjectModel;
 using System.IO;
 using System.Text.Json;
 
 namespace Meilenstein3.Finanzmanager;
 
 
-public class FinanzenSpeichern()
+public class FinanzenSpeichern
 {
-    static string _ordnerPfad = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Meilenstein3.Finanzmanager");
+    static string _ordnerPfad = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Finanzdaten");
     static string _dateiPfad = Path.Combine(_ordnerPfad, "Transaktionen.json");
 
-    
-    public static void Speichern(List<Transaktion> transaktionen){
-
-        if (!File.Exists(_dateiPfad))
+    public static void Speichern(List<Transaktion> transaktionen)
+    {
+        if (!Directory.Exists(_ordnerPfad))
         {
-            File.Create(_dateiPfad);
+            Directory.CreateDirectory(_ordnerPfad);
         }
-        
-        string json =
-            JsonSerializer.Serialize(transaktionen, new JsonSerializerOptions { WriteIndented = true }); //Formatieren der Liste zu JSON-Format mit WhiteSpaces
+
+        string json = JsonSerializer.Serialize(transaktionen, new JsonSerializerOptions { WriteIndented = true });
         File.WriteAllText(_dateiPfad, json);
     }
 
-    public static List<Transaktion>? GetTransaktionen()
+    public static ObservableCollection<Transaktion> GetTransaktionen()
     {
-
         if (!File.Exists(_dateiPfad))
         {
-            return new List<Transaktion>();
+            return new ObservableCollection<Transaktion>();
         }
-        
-        return JsonSerializer.Deserialize<List<Transaktion>>(File.ReadAllText(_dateiPfad)) ?? new List<Transaktion>();
-        
-    }
 
+        var liste = JsonSerializer.Deserialize<List<Transaktion>>(File.ReadAllText(_dateiPfad)) ?? new List<Transaktion>();
+        return new ObservableCollection<Transaktion>(liste);
+    }
 }
+
+

@@ -10,7 +10,15 @@
         <TextBox VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="20" BorderThickness="0" >Neue Transaktion</TextBox>
         <TextBox VerticalAlignment="Center" HorizontalAlignment="Left" Text="Betrag:" BorderThickness="0" Margin="40,0,0,100"/>
         <TextBox VerticalAlignment="Center" HorizontalAlignment="Left" Text="{Binding Betrag}" Width="40" Margin="40,40,0,100"/>
-        
+        <TextBox VerticalAlignment="Center" HorizontalAlignment="Left" Text="€" Width="10" Margin="80,40,0,100" BorderThickness="0"/>
+        <TextBox VerticalAlignment="Center" HorizontalAlignment="Left" Text="Beschreibung:" BorderThickness="0" Margin="150,0,0,100"/>
+        <TextBox VerticalAlignment="Center" HorizontalAlignment="Left" Text="{Binding Beschreibung}" Width="80" Margin="150,40,0,100"/>
+        <TextBox VerticalAlignment="Center" HorizontalAlignment="Left" Text="Kategorie:" BorderThickness="0" Margin="320,0,0,100"/>
+        <ComboBox VerticalAlignment="Center" HorizontalAlignment="Left" Margin="300,0,0,60" Width="100" Height="20"
+                  SelectedItem="{Binding Kategorie}"
+            ItemsSource="{Binding Source={x:Static local:KategorienValuesFinanzen.All}}">
+        </ComboBox>
         <Button VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="10" Click="TransaktionBuchen_Click">Transaktion buchen</Button>
+        
     </Grid>
 </Window>

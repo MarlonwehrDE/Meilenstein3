@@ -1,51 +1,60 @@
-<Page x:Class="Meilenstein3.GUI.FinanzmanagerPage"
-      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-      xmlns:local="clr-namespace:Meilenstein3.GUI"
-      mc:Ignorable="d"
+<Page x:Class="Meilenstein3.GUI.FinanzmanagerPage" 
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Meilenstein3.GUI" 
+      mc:Ignorable="d" 
       Title="FinanzmanagerPage" Height="450" Width="800">
     <Grid>
-        <TextBox HorizontalAlignment="Center" FontSize="34" Height="50" VerticalAlignment="Top">Finanzmanager</TextBox>
+        <TextBox HorizontalAlignment="Center" FontSize="34" Height="50" VerticalAlignment="Top" TextAlignment="Center" IsReadOnly="True" BorderThickness="0" Background="Transparent" Text="Finanzmanager"/>
         <ListView Margin="50" ItemsSource="{Binding Transaktionen}">
             <ListView.View>
                 <GridView>
-                    <GridViewColumn Header="Betrag">
+                    <GridViewColumn Header="Betrag" Width="100">
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
-                                <TextBox Text = "{Binding Betrag}" Foreground="{Binding Color}" IsReadOnly="True"></TextBox>
+                                <TextBlock Text="{Binding Betrag, StringFormat={}{0:F2} €}" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                             </DataTemplate>
                         </GridViewColumn.CellTemplate>
                     </GridViewColumn>
-                    <GridViewColumn Header = "Beschreibung">
+                    
+                    <GridViewColumn Header="Beschreibung" Width="200">
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
-                                <TextBox Text = "{Binding Beschreibung}" IsReadOnly="True"></TextBox>
+                                <TextBlock Text="{Binding Beschreibung}" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                             </DataTemplate>
                         </GridViewColumn.CellTemplate>
                     </GridViewColumn>
-                    <GridViewColumn Header="Datum">
+                    
+                    <GridViewColumn Header="Datum" Width="200">
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
-                                <TextBox Text = "{Binding Datum}" IsReadOnly="True"></TextBox>
+                                <TextBlock Text="{Binding Datum}" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                             </DataTemplate>
                         </GridViewColumn.CellTemplate>
                     </GridViewColumn>
-                    <GridViewColumn>
+                    
+                    <GridViewColumn Header="Kategorie" Width="130">
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
-                                <TextBox HorizontalAlignment="Right" VerticalAlignment="Bottom" Text = "{Binding Kontostand,StringFormat= Kontostand : {O:2F}}" Foreground="{Binding Color}"></TextBox>
+                                <TextBlock Text="{Binding Kategorie}" TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                             </DataTemplate>
                         </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                    
+                    <GridViewColumn Header="Löschen" Width="50">
+                    <GridViewColumn.CellTemplate>
+                        <DataTemplate>
+                            <Button Click="LoeschenFinanzen_Click" Tag="{Binding}" BorderThickness="0" Background="Transparent">X</Button>
+                        </DataTemplate>
+                    </GridViewColumn.CellTemplate>
                     </GridViewColumn>
                 </GridView>
             </ListView.View>
         </ListView>
-        
-        <Button VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="50,25" Click = "TransaktionenHinzufuegen_Click">Transaktion Hinzufügen</Button>
-        
-        
+        <TextBox HorizontalAlignment="Left" Margin="50,0,0,50" Width="200" FontSize="16" VerticalAlignment="Bottom" Text="{Binding Kontostand, StringFormat=Kontostand: {0:F2} Euro}" Foreground="{Binding Color}" IsReadOnly="True" BorderThickness="0" Background="Transparent" TextAlignment="Center"/>
+        <Button VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="50,25" Click="TransaktionenHinzufuegen_Click">Transaktion Hinzufügen</Button>
+        <Button VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="190,25" Click="TransaktionenSpeichern_Click">Transaktionen Speichern</Button>
     </Grid>
-    
 </Page>
