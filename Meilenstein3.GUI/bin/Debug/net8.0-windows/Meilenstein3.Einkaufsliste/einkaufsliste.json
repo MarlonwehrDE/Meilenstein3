@@ -1,8 +1,15 @@
 [
   {
+    "Artikelbezeichnung": "Brot",
+    "Menge": 1,
+    "Preis": 6,
+    "Kategorie": 5,
+    "Gekauft": false
+  },
+  {
     "Artikelbezeichnung": "Neuer Eintrag",
-    "Menge": 100,
-    "Preis": 2,
+    "Menge": 0,
+    "Preis": 0,
     "Kategorie": 5,
     "Gekauft": false
   },

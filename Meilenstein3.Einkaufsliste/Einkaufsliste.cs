@@ -14,7 +14,9 @@ public enum Kategorien
     Fleischprodukte,
     Milchprodukte,
     Haushaltsprodukte,
+    Teigwaren,
     Sonstiges,
+    
     
 } public class Einkaufsliste : INotifyPropertyChanged
 {
