@@ -53,7 +53,7 @@
                 </GridView>
             </ListView.View>
         </ListView>
-        <TextBox HorizontalAlignment="Left" Margin="50,0,0,50" Width="200" FontSize="16" VerticalAlignment="Bottom" Text="{Binding Kontostand, StringFormat=Kontostand: {0:F2} Euro}" Foreground="{Binding Color}" IsReadOnly="True" BorderThickness="0" Background="Transparent" TextAlignment="Center"/>
+        <TextBox HorizontalAlignment="Left" Margin="50,0,0,50" Width="200" FontSize="16" VerticalAlignment="Bottom" Text="{Binding Kontostand, StringFormat=Kontostand: {0:f2} Euro}" Foreground="{Binding Color}" IsReadOnly="True" BorderThickness="0" Background="Transparent" TextAlignment="Center"/>
         <Button VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="50,25" Click="TransaktionenHinzufuegen_Click">Transaktion Hinzufügen</Button>
         <Button VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="190,25" Click="TransaktionenSpeichern_Click">Transaktionen Speichern</Button>
     </Grid>

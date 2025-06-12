@@ -24,7 +24,7 @@ public partial class FinanzmanagerPage : Page
         DataContext = finanzManager;
     }
 
-    public void KontostandOnOpen()
+    public void KontostandOnOpen() //Kontostand berechnen bei Laden aus Datei
     {
         foreach (Transaktion t in finanzManager.Transaktionen)
         {

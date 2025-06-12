@@ -16,111 +16,93 @@ public enum Kategorien
     Haushaltsprodukte,
     Sonstiges,
     
-}
-
-public class Einkaufsliste_Node : INotifyPropertyChanged
+} public class Einkaufsliste : INotifyPropertyChanged
 {
+    
+    public Einkaufsliste()
+    {
+        MeineEinkaufsliste.CollectionChanged += CollectionChanged;
+
+        // Wichtig: Bereits existierende Artikel abonnieren
+        foreach (var item in MeineEinkaufsliste)
+        {
+            item.PropertyChanged += Einkaufsliste_Node_PropertyChanged;
+            item.PropertyChanged += Einkaufsliste_Node_PropertyChanged;
+        }
+    }
+
+    private void CollectionChanged(object? sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
+    {
+        if (e.NewItems != null)
+        {
+            foreach (Einkaufsliste_Node newItem in e.NewItems)
+            {
+                newItem.PropertyChanged += Einkaufsliste_Node_PropertyChanged;
+            }
+        }
+
+        if (e.OldItems != null)
+        {
+            foreach (Einkaufsliste_Node oldItem in e.OldItems)
+            {
+                oldItem.PropertyChanged -= Einkaufsliste_Node_PropertyChanged;
+            }
+        }
+
+        CalculateCostSum();
+    }
+
+
    
-    private string artikelbezeichnung;
-    private int menge;
-    private float preis;
-    private Kategorien kategorie;
-    private bool gekauft;
 
-    public Einkaufsliste_Node(string artikelbezeichnung, int menge, float preis, Kategorien kategorie)
-    {
-        this.artikelbezeichnung = artikelbezeichnung;
-        this.menge = menge;
-        this.kategorie = kategorie;
-        this.preis = preis;
-    }
+    private double gesamtkosten;
 
-    public string Artikelbezeichnung
+    public double Gesamtkosten
     {
-        get => artikelbezeichnung;
+        get => gesamtkosten;
+
         set
         {
-            if (artikelbezeichnung != value)
+            if (value != gesamtkosten)
             {
-                artikelbezeichnung = value;
-                OnPropertyChanged(nameof(Artikelbezeichnung));
+                gesamtkosten = value;
+                OnPropertyChanged(nameof(Gesamtkosten));
             }
         }
     }
-
-    public int Menge
+    public ObservableCollection<Einkaufsliste_Node> MeineEinkaufsliste { get; set; } = new();
+    
+    private void Einkaufsliste_Node_PropertyChanged(object? sender, PropertyChangedEventArgs e)
     {
-        get => menge;
-        set
-        {
-            if (menge != value)
-            {
-                menge = value;
-                OnPropertyChanged(nameof(Menge));
-            }
-        }
+           CalculateCostSum();
     }
 
-    public float Preis
-    {
-        get => preis;
-        set
-        {
-            if (Math.Abs(preis - value) > 0.001f)
-            {
-                preis = value;
-                OnPropertyChanged(nameof(Preis));
-            }
-        }
-    }
-
-    public Kategorien Kategorie
-    {
-        get => kategorie;
-        set
-        {
-            if (kategorie != value)
-            {
-                kategorie = value;
-                OnPropertyChanged(nameof(Kategorie));
-            }
-        }
-    }
-
-    public bool Gekauft
-    {
-        get => gekauft;
-        set
-        {
-            if (gekauft != value)
-            {
-                gekauft = value;
-                OnPropertyChanged(nameof(Gekauft));
-            }
-        }
-    }
     
 
-    public event PropertyChangedEventHandler? PropertyChanged;
 
-    protected void OnPropertyChanged(string propertyName)
-        => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-}
+    public void CalculateCostSum()
+    {
+        double sum = 0;
+        foreach (var artikel in MeineEinkaufsliste)
+        {
+            sum += artikel.Preis * artikel.Menge;
+        }
+        Gesamtkosten = sum;
+        OnPropertyChanged(nameof(Gesamtkosten));
+    }
 
-
-
-public class Einkaufsliste : INotifyPropertyChanged
-{
-    public ObservableCollection<Einkaufsliste_Node> MeineEinkaufsliste { get; set; } = new();
     
 
     public void AddArtikel(Einkaufsliste_Node artikel)
     {
         MeineEinkaufsliste.Add(artikel);
+        artikel.PropertyChanged += Einkaufsliste_Node_PropertyChanged;
     }
 
     public void DeleteArtikel(Einkaufsliste_Node artikel)
     {
+        gesamtkosten -= artikel.Preis * artikel.Menge;
+        OnPropertyChanged(nameof(Gesamtkosten));
         if (!MeineEinkaufsliste.Remove(artikel))
         {
             throw new NullReferenceException("Artikel nicht in der Einkaufsliste gefunden!");
@@ -190,6 +172,13 @@ public class Einkaufsliste : INotifyPropertyChanged
     {
         return MeineEinkaufsliste.ToList();
     }
+    
 
     public event PropertyChangedEventHandler? PropertyChanged;
+
+    public void OnPropertyChanged(string propertyName)
+    {
+        
+        PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+    }
 }

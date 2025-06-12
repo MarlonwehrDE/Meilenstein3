@@ -13,7 +13,9 @@
                     <GridViewColumn Header="Artikel">
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
-                                <TextBox Text="{Binding Artikelbezeichnung, UpdateSourceTrigger=PropertyChanged}" />
+                                <TextBox Text="{Binding Artikelbezeichnung, UpdateSourceTrigger=PropertyChanged}" /> 
+                                <!-- Daten in Tabelle direkt mit jeweiligem Listenelement verbunden, wenn Tabellenelement verändert, dann wird es direkt in den Properties der Liste hinterlegt -->
+                                
                             </DataTemplate>
                         </GridViewColumn.CellTemplate>
                     </GridViewColumn>
@@ -28,14 +30,15 @@
                     <GridViewColumn Header="Menge">
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
-                                <TextBox Text="{Binding Menge, UpdateSourceTrigger=PropertyChanged}" />
+                                <TextBox Text="{Binding Menge, UpdateSourceTrigger=PropertyChanged, ValidatesOnExceptions=True, NotifyOnValidationError=True}" />
+                                <!-- Abfangen von falschen Eingaben, also Buchstaben oder Sonderzeichen bei den Zahlen -->
                             </DataTemplate>
                         </GridViewColumn.CellTemplate>
                     </GridViewColumn>
                     <GridViewColumn Header="Preis">
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
-                                <TextBox Text="{Binding Preis, UpdateSourceTrigger=PropertyChanged}" />
+                                <TextBox Text="{Binding Preis, UpdateSourceTrigger=PropertyChanged, ValidatesOnExceptions=True, NotifyOnValidationError=True}" />
                             </DataTemplate>
                         </GridViewColumn.CellTemplate>
                     </GridViewColumn>
@@ -59,10 +62,13 @@
                 </GridView>
             </ListView.View>
         </ListView>
+        
+        
 
         <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom">
-        <Button Content = "Artikel Hinzufügen" Margin="5" Click="ArtikelHinzufügen_Click"/>
+            <Button Content = "Artikel Hinzufügen" Margin="5" Click="ArtikelHinzufügen_Click"/>
         <Button Content ="Einkaufsliste speichern" Margin="5" Click="ListeSpeichern_Click"/>
+            <TextBlock Text="{Binding  Gesamtkosten, StringFormat= Gesamtkosten: {0:f2} Euro, UpdateSourceTrigger=PropertyChanged}" Width="200" Height="20" Margin="310,0,100,0" ></TextBlock>
         </StackPanel>
     </Grid>
 </Page>

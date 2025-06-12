@@ -24,10 +24,18 @@ public partial class EinkaufslistePage : Page
     public EinkaufslistePage()
     {
         LoadEinkaufsliste();
+        GesamtkostenOnOpen();
         InitializeComponent();
         
-
         DataContext = MeineEinkaufsliste; // Datenbindung setzen
+    }
+
+    public void GesamtkostenOnOpen()
+    {
+        foreach (var artikel in MeineEinkaufsliste.MeineEinkaufsliste)
+        {
+            MeineEinkaufsliste.Gesamtkosten += artikel.Menge * artikel.Preis; ;
+        }
     }
 
     private void ArtikelHinzufügen_Click(object sender, RoutedEventArgs e)
