@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Meilenstein3.Personen")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df629773d1ff7deae84d9499e155038a8cd79e36")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+941f2b3abacca3417f7cdf16e787901dbadbfb1f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Meilenstein3.Personen")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Meilenstein3.Personen")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

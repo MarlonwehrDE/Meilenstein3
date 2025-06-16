@@ -1,0 +1,7 @@
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.Personen\obj\Debug\net8.0-windows\Meilenstein3.Personen.Properties.Resources.resources
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.Personen\obj\Debug\net8.0-windows\Meilenstein3.Personen.csproj.GenerateResource.cache
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.Personen\obj\Debug\net8.0-windows\Meilenstein3.Personen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.Personen\obj\Debug\net8.0-windows\Meilenstein3.Personen.AssemblyInfoInputs.cache
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.Personen\obj\Debug\net8.0-windows\Meilenstein3.Personen.AssemblyInfo.cs
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.Personen\obj\Debug\net8.0-windows\Meilenstein3.Personen.csproj.CoreCompileInputs.cache
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.Personen\obj\Debug\net8.0-windows\Meilenstein3.Personen.sourcelink.json

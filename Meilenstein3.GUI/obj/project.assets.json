@@ -41,14 +41,14 @@
           "Microsoft.WindowsDesktop.App.WPF"
         ]
       },
-      "Meilenstein3.Personen/1.0.0": {
+      "Meilenstein3.Person/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/Meilenstein3.Personen.dll": {}
+          "bin/placeholder/Meilenstein3.Person.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Meilenstein3.Personen.dll": {}
+          "bin/placeholder/Meilenstein3.Person.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.WindowsDesktop.App.WPF"
@@ -72,10 +72,10 @@
       "path": "../Meilenstein3.Finanzmanager/Meilenstein3.Finanzmanager.csproj",
       "msbuildProject": "../Meilenstein3.Finanzmanager/Meilenstein3.Finanzmanager.csproj"
     },
-    "Meilenstein3.Personen/1.0.0": {
+    "Meilenstein3.Person/1.0.0": {
       "type": "project",
-      "path": "../Meilenstein3.Personen/Meilenstein3.Personen.csproj",
-      "msbuildProject": "../Meilenstein3.Personen/Meilenstein3.Personen.csproj"
+      "path": "../Meilenstein3.Person/Meilenstein3.Person.csproj",
+      "msbuildProject": "../Meilenstein3.Person/Meilenstein3.Person.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -83,7 +83,7 @@
       "Meilenstein3.Aufgaben >= 1.0.0",
       "Meilenstein3.Einkaufsliste >= 1.0.0",
       "Meilenstein3.Finanzmanager >= 1.0.0",
-      "Meilenstein3.Personen >= 1.0.0"
+      "Meilenstein3.Person >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -120,8 +120,8 @@
             "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Finanzmanager\\Meilenstein3.Finanzmanager.csproj": {
               "projectPath": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Finanzmanager\\Meilenstein3.Finanzmanager.csproj"
             },
-            "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Personen\\Meilenstein3.Personen.csproj": {
-              "projectPath": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Personen\\Meilenstein3.Personen.csproj"
+            "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Person\\Meilenstein3.Person.csproj": {
+              "projectPath": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Person\\Meilenstein3.Person.csproj"
             }
           }
         }
