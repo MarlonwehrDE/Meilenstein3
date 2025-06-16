@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Security.Cryptography.X509Certificates;
 
 namespace Meilenstein3.Einkaufsliste;
 
@@ -20,43 +21,20 @@ public enum Kategorien
     
 } public class Einkaufsliste : INotifyPropertyChanged
 {
+    public ObservableCollection<Einkaufsliste_Node> MeineEinkaufsliste { get; set; } = new(); //Liste als ObservableCollection, damit auf Änderung der Liste in der Tabelle reagiert werden kann
     
     public Einkaufsliste()
     {
-        MeineEinkaufsliste.CollectionChanged += CollectionChanged;
+        MeineEinkaufsliste.CollectionChanged += CollectionChanged; //Event abonnieren, wenn Liste geändert wird (Löschen,Hinzufügen,....)
 
-        // Wichtig: Bereits existierende Artikel abonnieren
+        // Alle bereits vorhandenen Artikel den EventHandler hinzufügen
         foreach (var item in MeineEinkaufsliste)
         {
             item.PropertyChanged += Einkaufsliste_Node_PropertyChanged;
-            item.PropertyChanged += Einkaufsliste_Node_PropertyChanged;
         }
-    }
-
-    private void CollectionChanged(object? sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
-    {
-        if (e.NewItems != null)
-        {
-            foreach (Einkaufsliste_Node newItem in e.NewItems)
-            {
-                newItem.PropertyChanged += Einkaufsliste_Node_PropertyChanged;
-            }
-        }
-
-        if (e.OldItems != null)
-        {
-            foreach (Einkaufsliste_Node oldItem in e.OldItems)
-            {
-                oldItem.PropertyChanged -= Einkaufsliste_Node_PropertyChanged;
-            }
-        }
-
         CalculateCostSum();
     }
-
-
-   
-
+    
     private double gesamtkosten;
 
     public double Gesamtkosten
@@ -72,17 +50,39 @@ public enum Kategorien
             }
         }
     }
-    public ObservableCollection<Einkaufsliste_Node> MeineEinkaufsliste { get; set; } = new();
     
-    private void Einkaufsliste_Node_PropertyChanged(object? sender, PropertyChangedEventArgs e)
+    
+    private void Einkaufsliste_Node_PropertyChanged(object? sender, PropertyChangedEventArgs e) //Event, was ausgelöst wird, wenn ein Listenelement bearbeitet wird
     {
            CalculateCostSum();
+    }
+    private void CollectionChanged(object? sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)//Event, welches ausgelöst wird, wenn die Liste (als ganzes) verändert wird (z.B. neues Elemnt usw.)
+    {
+        if (e.OldItems != null) //Alle Elemente, die aus der Collection gelöscht wurden vom EventHandler entfernen
+        {
+            foreach (Einkaufsliste_Node oldItem in e.OldItems)
+            {
+                oldItem.PropertyChanged -= Einkaufsliste_Node_PropertyChanged;
+            }
+        }
+        
+        if (e.NewItems != null) //Alle neu hinzugefügten Elemente dem event hinzufügen
+        {
+            foreach (Einkaufsliste_Node newItem in e.NewItems)
+            {
+                newItem.PropertyChanged += Einkaufsliste_Node_PropertyChanged;
+            }
+        }
+
+        
+
+        CalculateCostSum();
     }
 
     
 
 
-    public void CalculateCostSum()
+    public void CalculateCostSum() //Berechnung der Kosten für jedes Element der Liste
     {
         double sum = 0;
         foreach (var artikel in MeineEinkaufsliste)
@@ -93,15 +93,27 @@ public enum Kategorien
         OnPropertyChanged(nameof(Gesamtkosten));
     }
 
+    public void AddEventOnJson(ObservableCollection<Einkaufsliste_Node> meineListe) //nach Laden der Json wird EventHandler wieder hinzugefügt
+    {
+        meineListe.CollectionChanged -= CollectionChanged; //Falls bereits ein EventHandler geladen ist
+        meineListe.CollectionChanged += CollectionChanged;
+
+        foreach (var element in meineListe)
+        {
+            element.PropertyChanged += Einkaufsliste_Node_PropertyChanged;
+        }
+        
+    }
+
     
 
-    public void AddArtikel(Einkaufsliste_Node artikel)
+    public void AddArtikel(Einkaufsliste_Node artikel) //Artikel in Liste Hinzufügen und den EventHandler hinzufügen
     {
         MeineEinkaufsliste.Add(artikel);
         artikel.PropertyChanged += Einkaufsliste_Node_PropertyChanged;
     }
 
-    public void DeleteArtikel(Einkaufsliste_Node artikel)
+    public void DeleteArtikel(Einkaufsliste_Node artikel) //Artikel aus Liste entfernt und ggf. Preis der Artikel aus Gesamtkosten entfernen
     {
         gesamtkosten -= artikel.Preis * artikel.Menge;
         OnPropertyChanged(nameof(Gesamtkosten));
@@ -176,11 +188,11 @@ public enum Kategorien
     }
     
 
-    public event PropertyChangedEventHandler? PropertyChanged;
+    public event PropertyChangedEventHandler? PropertyChanged;  //Durch Interface implementiert, gibt ein Event aus, wenn ein Propertie eines Elements
 
-    public void OnPropertyChanged(string propertyName)
+    public void OnPropertyChanged(string propertyName) //Methode zum Auslösen des PropertyChanged-Events, um die GUI über Änderungen zu informieren
     {
-        
         PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
     }
+
 }

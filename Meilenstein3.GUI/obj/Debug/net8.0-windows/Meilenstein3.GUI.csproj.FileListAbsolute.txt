@@ -59,3 +59,5 @@ C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.GUI\obj\Debug\net8.0-w
 C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.GUI\obj\Debug\net8.0-windows\FinanzmanagerPage.baml
 C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.GUI\obj\Debug\net8.0-windows\TransaktionenWindow.g.cs
 C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.GUI\obj\Debug\net8.0-windows\TransaktionenWindow.baml
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.GUI\obj\Debug\net8.0-windows\PersonAnlegenPage.g.cs
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.GUI\obj\Debug\net8.0-windows\PersonenPage.g.cs

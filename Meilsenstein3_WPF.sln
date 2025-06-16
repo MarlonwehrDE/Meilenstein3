@@ -8,6 +8,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meilenstein3.Aufgaben", "Me
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meilenstein3.Finanzmanager", "Meilenstein3.Finanzmanager\Meilenstein3.Finanzmanager.csproj", "{4594236C-AC73-42AE-9A50-E6B5A4C3F1FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meilenstein3.Person", "Meilenstein3.Person\Meilenstein3.Person.csproj", "{10B1CC3A-D504-40C3-B96B-A0E1D4345A0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meilenstein3.Personen", "Meilenstein3.Personen\Meilenstein3.Personen.csproj", "{6E313F2A-1694-417A-B045-6073E06C5D48}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{4594236C-AC73-42AE-9A50-E6B5A4C3F1FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4594236C-AC73-42AE-9A50-E6B5A4C3F1FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4594236C-AC73-42AE-9A50-E6B5A4C3F1FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10B1CC3A-D504-40C3-B96B-A0E1D4345A0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10B1CC3A-D504-40C3-B96B-A0E1D4345A0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10B1CC3A-D504-40C3-B96B-A0E1D4345A0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10B1CC3A-D504-40C3-B96B-A0E1D4345A0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E313F2A-1694-417A-B045-6073E06C5D48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E313F2A-1694-417A-B045-6073E06C5D48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E313F2A-1694-417A-B045-6073E06C5D48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E313F2A-1694-417A-B045-6073E06C5D48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -17,6 +17,7 @@ public partial class EinkaufslistePage : Page
         {
             MeineEinkaufsliste =  Einkaufsliste.EinkaufslisteSpeicher.Laden();
             alreadyLoaded = true;
+            MeineEinkaufsliste.AddEventOnJson(MeineEinkaufsliste.MeineEinkaufsliste);
         }
         
     }
@@ -24,19 +25,13 @@ public partial class EinkaufslistePage : Page
     public EinkaufslistePage()
     {
         LoadEinkaufsliste();
-        GesamtkostenOnOpen();
+        MeineEinkaufsliste.CalculateCostSum();
         InitializeComponent();
         
         DataContext = MeineEinkaufsliste; // Datenbindung setzen
     }
 
-    public void GesamtkostenOnOpen()
-    {
-        foreach (var artikel in MeineEinkaufsliste.MeineEinkaufsliste)
-        {
-            MeineEinkaufsliste.Gesamtkosten += artikel.Menge * artikel.Preis; ;
-        }
-    }
+ 
 
     private void ArtikelHinzufügen_Click(object sender, RoutedEventArgs e)
     {
