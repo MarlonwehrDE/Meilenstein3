@@ -10,7 +10,8 @@
         "dependencies": {
           "Meilenstein3.Aufgaben": "1.0.0",
           "Meilenstein3.Einkaufsliste": "1.0.0",
-          "Meilenstein3.Finanzmanager": "1.0.0"
+          "Meilenstein3.Finanzmanager": "1.0.0",
+          "Meilenstein3.Person": "1.0.0"
         },
         "runtime": {
           "Meilenstein3.GUI.dll": {}
@@ -39,6 +40,14 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "Meilenstein3.Person/1.0.0": {
+        "runtime": {
+          "Meilenstein3.Person.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -59,6 +68,11 @@
       "sha512": ""
     },
     "Meilenstein3.Finanzmanager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Meilenstein3.Person/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

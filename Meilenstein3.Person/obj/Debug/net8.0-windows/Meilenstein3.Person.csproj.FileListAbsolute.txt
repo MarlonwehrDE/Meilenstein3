@@ -1,0 +1,12 @@
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.Person\bin\Debug\net8.0-windows\Meilenstein3.Person.deps.json
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.Person\bin\Debug\net8.0-windows\Meilenstein3.Person.dll
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.Person\bin\Debug\net8.0-windows\Meilenstein3.Person.pdb
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.Person\obj\Debug\net8.0-windows\Meilenstein3.Person.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.Person\obj\Debug\net8.0-windows\Meilenstein3.Person.AssemblyInfoInputs.cache
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.Person\obj\Debug\net8.0-windows\Meilenstein3.Person.AssemblyInfo.cs
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.Person\obj\Debug\net8.0-windows\Meilenstein3.Person.csproj.CoreCompileInputs.cache
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.Person\obj\Debug\net8.0-windows\Meilenstein3.Person.sourcelink.json
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.Person\obj\Debug\net8.0-windows\Meilenstein3.Person.dll
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.Person\obj\Debug\net8.0-windows\refint\Meilenstein3.Person.dll
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.Person\obj\Debug\net8.0-windows\Meilenstein3.Person.pdb
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.Person\obj\Debug\net8.0-windows\ref\Meilenstein3.Person.dll

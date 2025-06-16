@@ -61,3 +61,7 @@ C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.GUI\obj\Debug\net8.0-w
 C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.GUI\obj\Debug\net8.0-windows\TransaktionenWindow.baml
 C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.GUI\obj\Debug\net8.0-windows\PersonAnlegenPage.g.cs
 C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.GUI\obj\Debug\net8.0-windows\PersonenPage.g.cs
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.GUI\bin\Debug\net8.0-windows\Meilenstein3.Person.dll
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.GUI\bin\Debug\net8.0-windows\Meilenstein3.Person.pdb
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.GUI\obj\Debug\net8.0-windows\PersonAnlegenPage.baml
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.GUI\obj\Debug\net8.0-windows\PersonenPage.baml
