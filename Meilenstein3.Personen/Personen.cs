@@ -1,14 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Collections.ObjectModel;
-using System.Text.Json;
+﻿
 using System.IO;
-using System.Text.Json.Serialization;
-using System.Xml;
-using Newtonsoft.Json;
+using System.Text.Json;
 using System.Windows;
 
 namespace Meilenstein3.Person
@@ -47,7 +39,7 @@ namespace Meilenstein3.Person
         {
             string dateipfad = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "personen.json");
             var array = personen.ToArray();
-            string json = JsonConvert.SerializeObject(array, Newtonsoft.Json.Formatting.Indented);
+            string json = JsonSerializer.Serialize(array);
             File.WriteAllText(dateipfad, json);
             MessageBox.Show($"Gespeichert unter:\n{dateipfad}\nMit {array.Length} Personen.");
         }
@@ -61,8 +53,8 @@ namespace Meilenstein3.Person
             try
             {
                 string json = File.ReadAllText(dateipfad);
-                var array = JsonConvert.DeserializeObject<Personen[]>(json);
-                return new LinkedList<Personen>(array ?? new Personen[0]);
+                var array = JsonSerializer.Deserialize<LinkedList<Personen>>(json);
+                return new LinkedList<Personen>(array);
             }
             catch (Exception ex)
             {
@@ -76,8 +68,3 @@ namespace Meilenstein3.Person
 }
 
    
-
-
-
-
-
