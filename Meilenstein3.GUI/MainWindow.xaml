@@ -8,14 +8,14 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         
-        <StackPanel Orientation="Horizontal" VerticalAlignment="Top">
-            <Button Content = "Einkaufsliste" Margin="10" Click="Einkaufsliste_Click" />
-            <Button Content="Finanzmanager" Margin="10" Click="Finanzmanager_Click"/>
-            <Button Content = "Personen" Click="Personen_Click" Margin="10" />
+        <StackPanel Orientation="Horizontal">
+            <Button Content = "Einkaufsliste" Margin="10" Click="Einkaufsliste_Click" VerticalAlignment="Top"/>
+            <Button Content="Finanzmanager" Margin="10" Click="Finanzmanager_Click" VerticalAlignment="Top"/>
+            <Button Content = "Personen" Click="Personen_Click" Margin="10" VerticalAlignment="Top" />
 
         </StackPanel>
         
-        <Frame x:Name="MainFrame" Margin="0,50,0,0"/>
+        <Frame x:Name="MainFrame" Margin="0,50,0,0" NavigationUIVisibility="Hidden"/>
 
     </Grid>
 </Window>

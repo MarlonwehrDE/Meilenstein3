@@ -53,6 +53,7 @@ namespace Meilenstein3.GUI
                 MessageBox.Show("Bitte ein gültiges, positives Einkommen eingeben.");
                 return;
             }
+            FinanzmanagerPage.AddGehaltPersonen(einkommen, vorname);
 
             // Erwerbstätigkeit
             bool erwerbstaetig = chkErwerbstaetig.IsChecked == true;

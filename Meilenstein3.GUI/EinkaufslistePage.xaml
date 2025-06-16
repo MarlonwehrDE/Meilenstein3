@@ -68,7 +68,8 @@
         <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom">
             <Button Content = "Artikel Hinzufügen" Margin="5" Click="ArtikelHinzufügen_Click"/>
         <Button Content ="Einkaufsliste speichern" Margin="5" Click="ListeSpeichern_Click"/>
-            <TextBlock Text="{Binding  Gesamtkosten, StringFormat= Gesamtkosten: {0:f2} Euro, UpdateSourceTrigger=PropertyChanged}" Width="200" Height="20" Margin="310,0,100,0" ></TextBlock>
+            <Button Content ="Kosten hinzufügen" Margin="5" Click="AddKosten_Click"/>
+            <TextBlock Text="{Binding  Gesamtkosten, StringFormat= Gesamtkosten: {0:f2} Euro, UpdateSourceTrigger=PropertyChanged}" Width="200" Height="20" Margin="197,0,100,0" ></TextBlock>
         </StackPanel>
     </Grid>
 </Page>
