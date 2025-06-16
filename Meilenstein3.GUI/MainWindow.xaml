@@ -10,8 +10,9 @@
         
         <StackPanel Orientation="Horizontal" VerticalAlignment="Top">
             <Button Content = "Einkaufsliste" Margin="10" Click="Einkaufsliste_Click" />
-            <Button Content = "Finanzmanager" Margin = "10" Click="Finanzmanager_Click"/>
-            
+            <Button Content="Finanzmanager" Margin="10" Click="Finanzmanager_Click"/>
+            <Button Content = "Personen" Click="Personen_Click" Margin="10" />
+
         </StackPanel>
         
         <Frame x:Name="MainFrame" Margin="0,50,0,0"/>

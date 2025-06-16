@@ -1,0 +1,16 @@
+[
+  {
+    "Vorname": "Anna",
+    "Nachname": "Musterfrau",
+    "Geburtstag": "1995-04-12T00:00:00",
+    "Einkommen": 3200.50,
+    "Erwerbstaetig": true
+  },
+  {
+    "Vorname": "Max",
+    "Nachname": "Mustermann",
+    "Geburtstag": "1988-09-05T00:00:00",
+    "Einkommen": 4100.00,
+    "Erwerbstaetig": true
+  }
+]

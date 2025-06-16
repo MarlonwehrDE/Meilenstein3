@@ -1,0 +1,28 @@
+﻿<Page x:Class="Meilenstein3.GUI.PersonAnlegenPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Meilenstein3.GUI"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PersonAnlegenPage">
+
+    <Grid>
+        <Button Content="Anlegen" HorizontalAlignment="Left" Height="50" Margin="541,71,0,0" VerticalAlignment="Top" Width="127" Click="Button_Click"/>
+        <TextBox x:Name="txtVorname" HorizontalAlignment="Left" Height="28" Margin="72,93,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="119"/>
+        <TextBox x:Name="txtNachname" HorizontalAlignment="Left" Height="28" Margin="231,93,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="119"/>
+        <Label Content="Vorname" HorizontalAlignment="Left" Height="25" Margin="72,60,0,0" VerticalAlignment="Top" Width="91"/>
+        <Label Content="Nachname" HorizontalAlignment="Left" Height="25" Margin="231,60,0,0" VerticalAlignment="Top" Width="91"/>
+        <!-- Geburtsdatum auswählen -->
+        <Calendar x:Name="calGeburtstag" Margin="72,177,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="300"/>
+        <Label Content="Geburtsdatum" HorizontalAlignment="Left" Height="25" Margin="72,147,0,0" VerticalAlignment="Top" Width="91"/>
+        <Label Content="Einkommen" HorizontalAlignment="Left" Height="25" Margin="72,352,0,0" VerticalAlignment="Top" Width="91"/>
+        <!-- Einkommen -->
+        <TextBox x:Name="txtEinkommen" HorizontalAlignment="Left" Height="28" Margin="72,382,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="119"/>
+        <!-- Erwerbstätigkeit (optional) -->
+        <CheckBox x:Name="chkErwerbstaetig" Content="Erwerbstätig" HorizontalAlignment="Left" Margin="72,430,0,0" VerticalAlignment="Top"/>
+        <Label Content="€" HorizontalAlignment="Left" Height="25" Margin="196,382,0,0" VerticalAlignment="Top" Width="91"/>
+
+    </Grid>
+</Page>
