@@ -5,14 +5,14 @@ using System.Windows;
 
 namespace Meilenstein3.Person
 {
-
+    
 
     class Programm
     {
 
     static void Main(string[] args) 
     {
-        LinkedList<Personen> personen= new LinkedList<Personen>();
+            LinkedList<Personen> personen = new LinkedList<Personen>();
 
 
     }
@@ -20,6 +20,7 @@ namespace Meilenstein3.Person
     }
      public class Personen
     {
+        
         public string Vorname { get; set; }
         public string Nachname { get; set; }
         public DateTime Geburtstag { get; set; }
@@ -43,6 +44,7 @@ namespace Meilenstein3.Person
             File.WriteAllText(dateipfad, json);
             MessageBox.Show($"Gespeichert unter:\n{dateipfad}\nMit {array.Length} Personen.");
         }
+
         public static LinkedList<Personen> LadePersonenListe()
         {
             string dateipfad = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "personen.json");
@@ -55,6 +57,8 @@ namespace Meilenstein3.Person
                 string json = File.ReadAllText(dateipfad);
                 var array = JsonSerializer.Deserialize<LinkedList<Personen>>(json);
                 return new LinkedList<Personen>(array);
+
+
             }
             catch (Exception ex)
             {

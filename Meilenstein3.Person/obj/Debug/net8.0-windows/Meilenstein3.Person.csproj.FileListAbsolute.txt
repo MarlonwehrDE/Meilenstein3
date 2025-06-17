@@ -10,3 +10,15 @@ C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.Person\obj\Debug\net8.
 C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.Person\obj\Debug\net8.0-windows\refint\Meilenstein3.Person.dll
 C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.Person\obj\Debug\net8.0-windows\Meilenstein3.Person.pdb
 C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.Person\obj\Debug\net8.0-windows\ref\Meilenstein3.Person.dll
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.Person\bin\Debug\net8.0-windows\Meilenstein3.Person.deps.json
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.Person\bin\Debug\net8.0-windows\Meilenstein3.Person.dll
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.Person\bin\Debug\net8.0-windows\Meilenstein3.Person.pdb
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.Person\obj\Debug\net8.0-windows\Meilenstein3.Person.GeneratedMSBuildEditorConfig.editorconfig
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.Person\obj\Debug\net8.0-windows\Meilenstein3.Person.AssemblyInfoInputs.cache
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.Person\obj\Debug\net8.0-windows\Meilenstein3.Person.AssemblyInfo.cs
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.Person\obj\Debug\net8.0-windows\Meilenstein3.Person.csproj.CoreCompileInputs.cache
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.Person\obj\Debug\net8.0-windows\Meilenstein3.Person.sourcelink.json
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.Person\obj\Debug\net8.0-windows\Meilenstein3.Person.dll
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.Person\obj\Debug\net8.0-windows\refint\Meilenstein3.Person.dll
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.Person\obj\Debug\net8.0-windows\Meilenstein3.Person.pdb
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.Person\obj\Debug\net8.0-windows\ref\Meilenstein3.Person.dll

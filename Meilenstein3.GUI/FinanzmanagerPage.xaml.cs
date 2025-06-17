@@ -55,6 +55,7 @@ public partial class FinanzmanagerPage : Page
 
     public static void AddEinkauf(double kosten) //Berechneten Einkaufspreis hinzufügen
     {
+        
         if (kosten > 0)
         {
             var AddEinkaufTransaktion = new Transaktion();

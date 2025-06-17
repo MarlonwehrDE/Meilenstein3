@@ -19,34 +19,22 @@
       },
       "Meilenstein3.Aufgaben/1.0.0": {
         "runtime": {
-          "Meilenstein3.Aufgaben.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Meilenstein3.Aufgaben.dll": {}
         }
       },
       "Meilenstein3.Einkaufsliste/1.0.0": {
         "runtime": {
-          "Meilenstein3.Einkaufsliste.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Meilenstein3.Einkaufsliste.dll": {}
         }
       },
       "Meilenstein3.Finanzmanager/1.0.0": {
         "runtime": {
-          "Meilenstein3.Finanzmanager.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Meilenstein3.Finanzmanager.dll": {}
         }
       },
       "Meilenstein3.Person/1.0.0": {
         "runtime": {
-          "Meilenstein3.Person.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "Meilenstein3.Person.dll": {}
         }
       }
     }

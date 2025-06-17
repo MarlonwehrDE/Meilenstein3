@@ -8,24 +8,31 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\BEN\\.nuget\\packages\\": {}
+    "C:\\Users\\marlo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Person\\Meilenstein3.Person.csproj",
+      "projectUniqueName": "D:\\06 Bildung\\TH Nürnberg\\Semester 2\\Meilenstein3\\Meilenstein3.Person\\Meilenstein3.Person.csproj",
       "projectName": "Meilenstein3.Person",
-      "projectPath": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Person\\Meilenstein3.Person.csproj",
-      "packagesPath": "C:\\Users\\BEN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Person\\obj\\",
+      "projectPath": "D:\\06 Bildung\\TH Nürnberg\\Semester 2\\Meilenstein3\\Meilenstein3.Person\\Meilenstein3.Person.csproj",
+      "packagesPath": "C:\\Users\\marlo\\.nuget\\packages\\",
+      "outputPath": "D:\\06 Bildung\\TH Nürnberg\\Semester 2\\Meilenstein3\\Meilenstein3.Person\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "G:\\AppData\\NuGet\\NuGet.Config"
+        "C:\\Users\\marlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0-windows"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -67,7 +74,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "E:\\Program Files\\dotnet\\sdk\\8.0.411/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.313/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

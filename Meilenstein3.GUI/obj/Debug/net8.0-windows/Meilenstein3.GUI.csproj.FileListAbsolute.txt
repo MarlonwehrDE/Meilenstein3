@@ -65,3 +65,44 @@ C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.GUI\bin\Debug\net8.0-w
 C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.GUI\bin\Debug\net8.0-windows\Meilenstein3.Person.pdb
 C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.GUI\obj\Debug\net8.0-windows\PersonAnlegenPage.baml
 C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.GUI\obj\Debug\net8.0-windows\PersonenPage.baml
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\bin\Debug\net8.0-windows\Meilenstein3.GUI.exe
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\bin\Debug\net8.0-windows\Meilenstein3.GUI.deps.json
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\bin\Debug\net8.0-windows\Meilenstein3.GUI.runtimeconfig.json
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\bin\Debug\net8.0-windows\Meilenstein3.GUI.dll
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\bin\Debug\net8.0-windows\Meilenstein3.GUI.pdb
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\bin\Debug\net8.0-windows\Meilenstein3.Aufgaben.dll
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\bin\Debug\net8.0-windows\Meilenstein3.Einkaufsliste.dll
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\bin\Debug\net8.0-windows\Meilenstein3.Finanzmanager.dll
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\bin\Debug\net8.0-windows\Meilenstein3.Person.dll
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\bin\Debug\net8.0-windows\Meilenstein3.Aufgaben.pdb
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\bin\Debug\net8.0-windows\Meilenstein3.Einkaufsliste.pdb
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\bin\Debug\net8.0-windows\Meilenstein3.Finanzmanager.pdb
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\bin\Debug\net8.0-windows\Meilenstein3.Person.pdb
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\obj\Debug\net8.0-windows\Meilenstein3.GUI.csproj.AssemblyReference.cache
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\obj\Debug\net8.0-windows\EinkaufslistePage.g.cs
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\obj\Debug\net8.0-windows\FinanzmanagerPage.g.cs
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\obj\Debug\net8.0-windows\PersonAnlegenPage.g.cs
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\obj\Debug\net8.0-windows\PersonenPage.g.cs
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\obj\Debug\net8.0-windows\TransaktionenWindow.g.cs
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\obj\Debug\net8.0-windows\App.g.cs
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\obj\Debug\net8.0-windows\Meilenstein3.GUI_MarkupCompile.cache
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\obj\Debug\net8.0-windows\Meilenstein3.GUI_MarkupCompile.lref
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\obj\Debug\net8.0-windows\EinkaufslistePage.baml
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\obj\Debug\net8.0-windows\FinanzmanagerPage.baml
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\obj\Debug\net8.0-windows\MainWindow.baml
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\obj\Debug\net8.0-windows\PersonAnlegenPage.baml
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\obj\Debug\net8.0-windows\PersonenPage.baml
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\obj\Debug\net8.0-windows\TransaktionenWindow.baml
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\obj\Debug\net8.0-windows\Meilenstein3.GUI.g.resources
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\obj\Debug\net8.0-windows\Meilenstein3.GUI.GeneratedMSBuildEditorConfig.editorconfig
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\obj\Debug\net8.0-windows\Meilenstein3.GUI.AssemblyInfoInputs.cache
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\obj\Debug\net8.0-windows\Meilenstein3.GUI.AssemblyInfo.cs
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\obj\Debug\net8.0-windows\Meilenstein3.GUI.csproj.CoreCompileInputs.cache
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\obj\Debug\net8.0-windows\Meilenstein3.GUI.sourcelink.json
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\obj\Debug\net8.0-windows\Meilenst.70C96A90.Up2Date
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\obj\Debug\net8.0-windows\Meilenstein3.GUI.dll
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\obj\Debug\net8.0-windows\refint\Meilenstein3.GUI.dll
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\obj\Debug\net8.0-windows\Meilenstein3.GUI.pdb
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\obj\Debug\net8.0-windows\Meilenstein3.GUI.genruntimeconfig.cache
+D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\obj\Debug\net8.0-windows\ref\Meilenstein3.GUI.dll

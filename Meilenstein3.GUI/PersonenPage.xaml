@@ -6,10 +6,90 @@
       xmlns:local="clr-namespace:Meilenstein3.GUI"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
-      Title="PersonenPage">
+      
+      Title="PersonenPage" Height="450" Width="800">
 
-    <Grid>
+    <Grid Margin="20">
+
         <Button Content="Person anlegen" HorizontalAlignment="Left" Margin="34,20,0,0" VerticalAlignment="Top" Height="39" Width="117" Click="Button_Click"/>
+        <ListView ItemsSource="{Binding PersonenListe}" RenderTransformOrigin="0.504,0.488">
+            <ListView.View>
+                <GridView>
 
+                    <GridViewColumn Header="Vorname">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+
+                                <TextBlock Text="{Binding Vorname, UpdateSourceTrigger=PropertyChanged}"/>
+
+                                <!-- Daten in Tabelle direkt mit jeweiligem Listenelement verbunden, wenn Tabellenelement verändert, dann wird es direkt in den Properties der Liste hinterlegt -->
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+
+                    <GridViewColumn Header="Nachname">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+
+                                <TextBlock Text="{Binding Nachname, UpdateSourceTrigger=PropertyChanged}"/>
+
+                                <!-- Daten in Tabelle direkt mit jeweiligem Listenelement verbunden, wenn Tabellenelement verändert, dann wird es direkt in den Properties der Liste hinterlegt -->
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                    <GridViewColumn Header="Geburtstag">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+
+                                <TextBlock Text="{Binding Geburtstag, UpdateSourceTrigger=PropertyChanged}"/>
+
+                                <!-- Daten in Tabelle direkt mit jeweiligem Listenelement verbunden, wenn Tabellenelement verändert, dann wird es direkt in den Properties der Liste hinterlegt -->
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                    <GridViewColumn Header="Einkommen">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+
+                                <TextBlock Text="{Binding Einkommen, UpdateSourceTrigger=PropertyChanged}"/>
+
+                                <!-- Daten in Tabelle direkt mit jeweiligem Listenelement verbunden, wenn Tabellenelement verändert, dann wird es direkt in den Properties der Liste hinterlegt -->
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                    <GridViewColumn Header="Artikel löschen">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Grid>
+                                    <Button Content="X"
+                                     Tag="{Binding}"
+                                     Background="Transparent"
+                                     BorderThickness="0"
+                                     Foreground="Black"
+                                     Cursor="Hand"
+                                     HorizontalAlignment="Right"
+                                     Width="20"
+                                     Click="Loeschen_Click"/>
+                                </Grid>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+
+
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom">
+            <Button Content="Person anlegen" HorizontalAlignment="Left" Margin="34,20,0,0" VerticalAlignment="Top" Height="39" Width="117" Click="Button_Click"/>
+            <TextBlock Text="{Binding  Gesamtkosten, StringFormat= Gesamtkosten: {0:f2} Euro, UpdateSourceTrigger=PropertyChanged}" Width="200" Height="20" Margin="197,0,100,0" ></TextBlock>
+        </StackPanel>
     </Grid>
 </Page>
+
+
+

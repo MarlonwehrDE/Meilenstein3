@@ -1,34 +1,41 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.ObjectModel;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace Meilenstein3.GUI
 {
-    /// <summary>
-    /// Interaktionslogik für PersonenPage.xaml
-    /// </summary>
+
     public partial class PersonenPage : Page
     {
+        public ObservableCollection<Meilenstein3.Person.Personen> PersonenListe { get; set; }
+
         public PersonenPage()
         {
             InitializeComponent();
+
+            // Lade die LinkedList und konvertiere sie zu ObservableCollection
+            var geladeneListe = Meilenstein3.Person.Personen.LadePersonenListe();
+            PersonenListe = new ObservableCollection<Meilenstein3.Person.Personen>(geladeneListe);
+
+            DataContext = this;
+
+            foreach (Meilenstein3.Person.Personen person in PersonenListe)
+            {
+                FinanzmanagerPage.AddGehaltPersonen(person.Einkommen, person.Vorname);
+            }
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             ((MainWindow)Application.Current.MainWindow).MainFrame.Navigate(new PersonAnlegenPage());
+        }
 
+        private void Loeschen_Click(object sender, RoutedEventArgs e)
+        {
+
+            
+               
+            
         }
     }
 }
