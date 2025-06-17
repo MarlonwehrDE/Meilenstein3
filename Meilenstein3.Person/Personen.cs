@@ -42,7 +42,7 @@ namespace Meilenstein3.Person
             var array = personen.ToArray();
             string json = JsonSerializer.Serialize(array);
             File.WriteAllText(dateipfad, json);
-            MessageBox.Show($"Gespeichert unter:\n{dateipfad}\nMit {array.Length} Personen.");
+     
         }
 
         public static LinkedList<Personen> LadePersonenListe()
