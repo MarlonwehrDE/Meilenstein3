@@ -15,6 +15,7 @@ using System.Windows.Shapes;
 using System.Text.Json;
 using System.IO;
 using System.Collections.ObjectModel;
+using Meilenstein3.Person;
 
 
 namespace Meilenstein3.GUI
@@ -22,8 +23,17 @@ namespace Meilenstein3.GUI
     /// <summary>
     /// Interaktionslogik für Page1.xaml
     /// </summary>
+    /// 
+    public class AufgabenZuweisung
+    {
+        public string[] ZugewiesenePersonen { get; set; } = new string[6];
+    }
     public partial class AufgabenPage : Page
     {
+        private List<Personen> personenListe;
+        private ComboBox[] comboBoxes;
+        private readonly string personenPfad = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "personen.json");
+        private readonly string zuweisungenPfad = "zugewiesenepersonen.json";
         //TODO muss automatisch aus JSON gezogen werden
         private bool[] isGreen = new bool[6];
         public AufgabenPage()
@@ -45,6 +55,78 @@ namespace Meilenstein3.GUI
                 {
                     MessageBox.Show("Fehler beim Laden des Aufgabenstatus: " + ex.Message);
                 }
+            }
+            comboBoxes = new[] { comboAufgabe1, comboAufgabe2, comboAufgabe3, comboAufgabe4, comboAufgabe5, comboAufgabe6 };
+            this.Loaded += AufgabenPage_Loaded;
+
+        }
+        private void AufgabenPage_Loaded(object sender, RoutedEventArgs e)
+        {
+            LadePersonen();
+            InitialisiereComboBoxes();
+        }
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            var neueZuweisung = new AufgabenZuweisung();
+
+            for (int i = 0; i < comboBoxes.Length; i++)
+            {
+                if (comboBoxes[i].SelectedItem is Personen person)
+                {
+                    neueZuweisung.ZugewiesenePersonen[i] = $"{person.Vorname} {person.Nachname}";
+                }
+            }
+
+            File.WriteAllText(zuweisungenPfad, JsonSerializer.Serialize(neueZuweisung, new JsonSerializerOptions { WriteIndented = true }));
+        }
+        private void InitialisiereComboBoxes()
+        {
+            AufgabenZuweisung zuweisung;
+
+            if (File.Exists(zuweisungenPfad))
+            {
+                string json = File.ReadAllText(zuweisungenPfad);
+                zuweisung = JsonSerializer.Deserialize<AufgabenZuweisung>(json);
+            }
+            else
+            {
+                zuweisung = new AufgabenZuweisung();
+            }
+
+            for (int i = 0; i < comboBoxes.Length; i++)
+            {
+                ComboBox box = comboBoxes[i];
+
+                // Personen in die ComboBox einfügen
+                box.ItemsSource = personenListe;
+                box.DisplayMemberPath = null; 
+                string gespeicherterName = zuweisung.ZugewiesenePersonen[i];
+
+                if (!string.IsNullOrWhiteSpace(gespeicherterName))
+                {
+                    foreach (var person in personenListe)
+                    {
+                        string name = person.Vorname + " " + person.Nachname;
+
+                        if (name == gespeicherterName)
+                        {
+                            box.SelectedItem = person;
+                            break;
+                        }
+                    }
+                }
+            }
+        }
+        private void LadePersonen()
+        {
+            if (File.Exists(personenPfad))
+            {
+                var json = File.ReadAllText(personenPfad);
+                personenListe = JsonSerializer.Deserialize<LinkedList<Personen>>(json)?.ToList() ?? new List<Personen>();
+            }
+            else
+            {
+                personenListe = new List<Personen>();
             }
         }
         private void SetzeButtonFarben()

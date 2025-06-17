@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.GUI\\Meilenstein3.GUI.csproj": {}
+    "C:\\Users\\BEN\\Documents\\Meilenstein 3 FINAL\\Meilenstein3.GUI\\Meilenstein3.GUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Aufgaben\\Meilenstein3.Aufgaben.csproj": {
+    "C:\\Users\\BEN\\Documents\\Meilenstein 3 FINAL\\Meilenstein3.Aufgaben\\Meilenstein3.Aufgaben.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Aufgaben\\Meilenstein3.Aufgaben.csproj",
+        "projectUniqueName": "C:\\Users\\BEN\\Documents\\Meilenstein 3 FINAL\\Meilenstein3.Aufgaben\\Meilenstein3.Aufgaben.csproj",
         "projectName": "Meilenstein3.Aufgaben",
-        "projectPath": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Aufgaben\\Meilenstein3.Aufgaben.csproj",
+        "projectPath": "C:\\Users\\BEN\\Documents\\Meilenstein 3 FINAL\\Meilenstein3.Aufgaben\\Meilenstein3.Aufgaben.csproj",
         "packagesPath": "C:\\Users\\BEN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Aufgaben\\obj\\",
+        "outputPath": "C:\\Users\\BEN\\Documents\\Meilenstein 3 FINAL\\Meilenstein3.Aufgaben\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "G:\\AppData\\NuGet\\NuGet.Config"
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Einkaufsliste\\Meilenstein3.Einkaufsliste.csproj": {
+    "C:\\Users\\BEN\\Documents\\Meilenstein 3 FINAL\\Meilenstein3.Einkaufsliste\\Meilenstein3.Einkaufsliste.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Einkaufsliste\\Meilenstein3.Einkaufsliste.csproj",
+        "projectUniqueName": "C:\\Users\\BEN\\Documents\\Meilenstein 3 FINAL\\Meilenstein3.Einkaufsliste\\Meilenstein3.Einkaufsliste.csproj",
         "projectName": "Meilenstein3.Einkaufsliste",
-        "projectPath": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Einkaufsliste\\Meilenstein3.Einkaufsliste.csproj",
+        "projectPath": "C:\\Users\\BEN\\Documents\\Meilenstein 3 FINAL\\Meilenstein3.Einkaufsliste\\Meilenstein3.Einkaufsliste.csproj",
         "packagesPath": "C:\\Users\\BEN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Einkaufsliste\\obj\\",
+        "outputPath": "C:\\Users\\BEN\\Documents\\Meilenstein 3 FINAL\\Meilenstein3.Einkaufsliste\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "G:\\AppData\\NuGet\\NuGet.Config"
@@ -126,14 +126,14 @@
         }
       }
     },
-    "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Finanzmanager\\Meilenstein3.Finanzmanager.csproj": {
+    "C:\\Users\\BEN\\Documents\\Meilenstein 3 FINAL\\Meilenstein3.Finanzmanager\\Meilenstein3.Finanzmanager.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Finanzmanager\\Meilenstein3.Finanzmanager.csproj",
+        "projectUniqueName": "C:\\Users\\BEN\\Documents\\Meilenstein 3 FINAL\\Meilenstein3.Finanzmanager\\Meilenstein3.Finanzmanager.csproj",
         "projectName": "Meilenstein3.Finanzmanager",
-        "projectPath": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Finanzmanager\\Meilenstein3.Finanzmanager.csproj",
+        "projectPath": "C:\\Users\\BEN\\Documents\\Meilenstein 3 FINAL\\Meilenstein3.Finanzmanager\\Meilenstein3.Finanzmanager.csproj",
         "packagesPath": "C:\\Users\\BEN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Finanzmanager\\obj\\",
+        "outputPath": "C:\\Users\\BEN\\Documents\\Meilenstein 3 FINAL\\Meilenstein3.Finanzmanager\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "G:\\AppData\\NuGet\\NuGet.Config"
@@ -187,14 +187,14 @@
         }
       }
     },
-    "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.GUI\\Meilenstein3.GUI.csproj": {
+    "C:\\Users\\BEN\\Documents\\Meilenstein 3 FINAL\\Meilenstein3.GUI\\Meilenstein3.GUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.GUI\\Meilenstein3.GUI.csproj",
+        "projectUniqueName": "C:\\Users\\BEN\\Documents\\Meilenstein 3 FINAL\\Meilenstein3.GUI\\Meilenstein3.GUI.csproj",
         "projectName": "Meilenstein3.GUI",
-        "projectPath": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.GUI\\Meilenstein3.GUI.csproj",
+        "projectPath": "C:\\Users\\BEN\\Documents\\Meilenstein 3 FINAL\\Meilenstein3.GUI\\Meilenstein3.GUI.csproj",
         "packagesPath": "C:\\Users\\BEN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.GUI\\obj\\",
+        "outputPath": "C:\\Users\\BEN\\Documents\\Meilenstein 3 FINAL\\Meilenstein3.GUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "G:\\AppData\\NuGet\\NuGet.Config"
@@ -209,17 +209,17 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Aufgaben\\Meilenstein3.Aufgaben.csproj": {
-                "projectPath": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Aufgaben\\Meilenstein3.Aufgaben.csproj"
+              "C:\\Users\\BEN\\Documents\\Meilenstein 3 FINAL\\Meilenstein3.Aufgaben\\Meilenstein3.Aufgaben.csproj": {
+                "projectPath": "C:\\Users\\BEN\\Documents\\Meilenstein 3 FINAL\\Meilenstein3.Aufgaben\\Meilenstein3.Aufgaben.csproj"
               },
-              "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Einkaufsliste\\Meilenstein3.Einkaufsliste.csproj": {
-                "projectPath": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Einkaufsliste\\Meilenstein3.Einkaufsliste.csproj"
+              "C:\\Users\\BEN\\Documents\\Meilenstein 3 FINAL\\Meilenstein3.Einkaufsliste\\Meilenstein3.Einkaufsliste.csproj": {
+                "projectPath": "C:\\Users\\BEN\\Documents\\Meilenstein 3 FINAL\\Meilenstein3.Einkaufsliste\\Meilenstein3.Einkaufsliste.csproj"
               },
-              "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Finanzmanager\\Meilenstein3.Finanzmanager.csproj": {
-                "projectPath": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Finanzmanager\\Meilenstein3.Finanzmanager.csproj"
+              "C:\\Users\\BEN\\Documents\\Meilenstein 3 FINAL\\Meilenstein3.Finanzmanager\\Meilenstein3.Finanzmanager.csproj": {
+                "projectPath": "C:\\Users\\BEN\\Documents\\Meilenstein 3 FINAL\\Meilenstein3.Finanzmanager\\Meilenstein3.Finanzmanager.csproj"
               },
-              "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Person\\Meilenstein3.Person.csproj": {
-                "projectPath": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Person\\Meilenstein3.Person.csproj"
+              "C:\\Users\\BEN\\Documents\\Meilenstein 3 FINAL\\Meilenstein3.Person\\Meilenstein3.Person.csproj": {
+                "projectPath": "C:\\Users\\BEN\\Documents\\Meilenstein 3 FINAL\\Meilenstein3.Person\\Meilenstein3.Person.csproj"
               }
             }
           }
@@ -261,14 +261,14 @@
         }
       }
     },
-    "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Person\\Meilenstein3.Person.csproj": {
+    "C:\\Users\\BEN\\Documents\\Meilenstein 3 FINAL\\Meilenstein3.Person\\Meilenstein3.Person.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Person\\Meilenstein3.Person.csproj",
+        "projectUniqueName": "C:\\Users\\BEN\\Documents\\Meilenstein 3 FINAL\\Meilenstein3.Person\\Meilenstein3.Person.csproj",
         "projectName": "Meilenstein3.Person",
-        "projectPath": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Person\\Meilenstein3.Person.csproj",
+        "projectPath": "C:\\Users\\BEN\\Documents\\Meilenstein 3 FINAL\\Meilenstein3.Person\\Meilenstein3.Person.csproj",
         "packagesPath": "C:\\Users\\BEN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Person\\obj\\",
+        "outputPath": "C:\\Users\\BEN\\Documents\\Meilenstein 3 FINAL\\Meilenstein3.Person\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "G:\\AppData\\NuGet\\NuGet.Config"

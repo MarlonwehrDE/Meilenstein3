@@ -66,7 +66,10 @@ namespace Meilenstein3.Person
                 return new LinkedList<Personen>();
             }
         }
-
+        public override string ToString()
+        {
+            return $"{Vorname} {Nachname}";
+        }
     }
         
 }

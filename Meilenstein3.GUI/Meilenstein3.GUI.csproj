@@ -9,10 +9,20 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <None Remove="info.png" />
+      <None Remove="logo.png" />
+    </ItemGroup>
+
+    <ItemGroup>
       <ProjectReference Include="..\Meilenstein3.Aufgaben\Meilenstein3.Aufgaben.csproj" />
       <ProjectReference Include="..\Meilenstein3.Einkaufsliste\Meilenstein3.Einkaufsliste.csproj" />
       <ProjectReference Include="..\Meilenstein3.Finanzmanager\Meilenstein3.Finanzmanager.csproj" />
       <ProjectReference Include="..\Meilenstein3.Person\Meilenstein3.Person.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Resource Include="info.png" />
+      <Resource Include="logo.png" />
     </ItemGroup>
 
 </Project>
