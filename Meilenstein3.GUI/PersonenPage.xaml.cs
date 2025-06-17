@@ -1,4 +1,4 @@
-﻿using System.Collections.ObjectModel;
+using System.Collections.ObjectModel;
 using System.Windows;
 using System.Windows.Controls;
 
@@ -27,7 +27,8 @@ namespace Meilenstein3.GUI
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            ((MainWindow)Application.Current.MainWindow).MainFrame.Navigate(new PersonAnlegenPage());
+            ((MainWindow)Application.Current.MainWindow).MainFrame.Navigate(new PersonAnlegenPage(this));
+            
         }
 
         private void Loeschen_Click(object sender, RoutedEventArgs e)
