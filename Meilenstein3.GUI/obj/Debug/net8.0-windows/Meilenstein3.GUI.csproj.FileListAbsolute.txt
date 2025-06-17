@@ -106,3 +106,5 @@ D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\obj\Debug\ne
 D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\obj\Debug\net8.0-windows\Meilenstein3.GUI.pdb
 D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\obj\Debug\net8.0-windows\Meilenstein3.GUI.genruntimeconfig.cache
 D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\obj\Debug\net8.0-windows\ref\Meilenstein3.GUI.dll
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.GUI\obj\Debug\net8.0-windows\AufgabenPage.g.cs
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.GUI\obj\Debug\net8.0-windows\AufgabenPage.baml
