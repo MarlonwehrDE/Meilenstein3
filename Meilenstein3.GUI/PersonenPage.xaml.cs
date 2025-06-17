@@ -33,7 +33,19 @@ namespace Meilenstein3.GUI
         private void Loeschen_Click(object sender, RoutedEventArgs e)
         {
 
-            
+            // Den Button casten
+var button = sender as Button;
+
+// Die gebundene Person aus dem Tag holen
+var person = button?.Tag as Meilenstein3.Person.Personen;
+
+// Wenn alles korrekt ist: aus der ObservableCollection entfernen
+if (person != null && PersonenListe.Contains(person))
+{
+    PersonenListe.Remove(person);
+}
+
+
                
             
         }
