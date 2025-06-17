@@ -10,7 +10,7 @@ namespace Meilenstein3.GUI;
 
 public partial class FinanzmanagerPage : Page
 {
-   public FinanzManager finanzManager { get; set; } = new();
+   public static FinanzManager finanzManager { get; set; } = new();
    Brush color = Brushes.Black;
    
     
@@ -39,7 +39,36 @@ public partial class FinanzmanagerPage : Page
         }
     }
 
-    private void TransaktionenHinzufuegen_Click(object sender, RoutedEventArgs e)
+    public static void AddGehaltPersonen(double gehalt, string vorname) //Wenn Person mit Gehalt hinzugefügt wird, dann wird es automatisch geaddet
+    {
+        if (gehalt > 0)
+        {
+            var addGehaltTransaktion = new Transaktion();
+            addGehaltTransaktion.Betrag = gehalt;
+            addGehaltTransaktion.Kategorie = FinanzKategorien.Einkommen;
+            addGehaltTransaktion.Beschreibung = $"Gehalt von {vorname}";
+            finanzManager.Transaktionen.Add(addGehaltTransaktion);
+            finanzManager.Kontostand += gehalt;
+            Console.WriteLine("Einkommen: " + gehalt);
+        }
+    }
+
+    public static void AddEinkauf(double kosten) //Berechneten Einkaufspreis hinzufügen
+    {
+        if (kosten > 0)
+        {
+            var AddEinkaufTransaktion = new Transaktion();
+            AddEinkaufTransaktion.Betrag = kosten;
+            AddEinkaufTransaktion.Kategorie = FinanzKategorien.Lebensmittel;
+            AddEinkaufTransaktion.Beschreibung = $"Einkaufskosten";
+            finanzManager.Transaktionen.Add(AddEinkaufTransaktion);
+            finanzManager.Kontostand -= kosten;
+        }
+        
+    }
+    
+    
+    private void TransaktionenHinzufuegen_Click(object sender, RoutedEventArgs e) //Hinzufügen einer Transktion über ein Popupwindow
     {
         var neueTransaktion = new Transaktion(); // Ein neues einzelnes Objekt erstellen
         var popUpWindow = new TransaktionenWindow
@@ -64,7 +93,7 @@ public partial class FinanzmanagerPage : Page
         }
     }
     
-    public void LoeschenFinanzen_Click(object sender, RoutedEventArgs e)
+    public void LoeschenFinanzen_Click(object sender, RoutedEventArgs e) //Entfernen einer Transaktion
     {
         
         var button = sender as Button;
@@ -89,7 +118,7 @@ public partial class FinanzmanagerPage : Page
         
     }
 
-    private void TransaktionenSpeichern_Click(object sender, RoutedEventArgs e)
+    private void TransaktionenSpeichern_Click(object sender, RoutedEventArgs e) //Speichern der Transaktionen als JSON
     {
         List<Transaktion> transaktionen = finanzManager.Transaktionen.ToList();
         FinanzenSpeichern.Speichern(transaktionen);

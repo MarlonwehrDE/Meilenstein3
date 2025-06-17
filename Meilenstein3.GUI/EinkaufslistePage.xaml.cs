@@ -9,6 +9,8 @@ public partial class EinkaufslistePage : Page
 {
 
     bool alreadyLoaded = false;
+    
+    
     public Einkaufsliste.Einkaufsliste MeineEinkaufsliste { get; set; } = new Einkaufsliste.Einkaufsliste();
 
     public void LoadEinkaufsliste()
@@ -31,8 +33,12 @@ public partial class EinkaufslistePage : Page
         DataContext = MeineEinkaufsliste; // Datenbindung setzen
     }
 
- 
-
+    private void AddKosten_Click(object sender, RoutedEventArgs e)
+    {
+        FinanzmanagerPage.AddEinkauf(MeineEinkaufsliste.Gesamtkosten);
+    }
+    
+    
     private void ArtikelHinzufügen_Click(object sender, RoutedEventArgs e)
     {
       MeineEinkaufsliste.AddArtikel(new Einkaufsliste_Node("Neuer Eintrag", 0, 0 , Kategorien.Sonstiges));
