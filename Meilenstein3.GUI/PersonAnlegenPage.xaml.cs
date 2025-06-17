@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.DirectoryServices.ActiveDirectory;
 using System.Linq;
@@ -25,10 +25,11 @@ namespace Meilenstein3.GUI
    
     public partial class PersonAnlegenPage : Page
     {
-       
-        public PersonAnlegenPage()
+        private PersonenPage _personenPage;
+        public PersonAnlegenPage(PersonenPage  personenPage)
         {
             InitializeComponent();
+            _personenPage = personenPage;
         }
         LinkedList<Person.Personen> personenListe = Meilenstein3.Person.Personen.LadePersonenListe();
 
@@ -69,8 +70,12 @@ namespace Meilenstein3.GUI
             Meilenstein3.Person.Personen neuePerson = new Personen(vorname, nachname, geburtstag, einkommen, erwerbstaetig);
             personenListe.AddLast(neuePerson);
             Meilenstein3.Person.Personen.SpeicherePersonenListe(personenListe);
+            // Zurück zur PersonenPage
+            _personenPage.PersonenListe.Add(neuePerson);
 
-            
+            // Navigiere zurück zur bestehenden Seite
+            ((MainWindow)Application.Current.MainWindow).MainFrame.Navigate(_personenPage);
+
         }
        
 
