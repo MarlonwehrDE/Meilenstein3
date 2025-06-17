@@ -7,42 +7,46 @@
       mc:Ignorable="d"
       Title="Einkaufsliste" Height="450" Width="800">
     <Grid Margin="20">
-        <ListView ItemsSource="{Binding MeineEinkaufsliste}">
+        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="30">Einkaufsliste</TextBlock>
+        <ListView ItemsSource="{Binding MeineEinkaufsliste}" Margin="40">
             <ListView.View>
                 <GridView>
-                    <GridViewColumn Header="Artikel">
+                    <GridViewColumn Header="Artikel" Width="175">
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
-                                <TextBox Text="{Binding Artikelbezeichnung, UpdateSourceTrigger=PropertyChanged}" /> 
+                                <TextBox Text="{Binding Artikelbezeichnung, UpdateSourceTrigger=PropertyChanged}" HorizontalAlignment="Center" TextAlignment="Center" Width="155"/> 
                                 <!-- Daten in Tabelle direkt mit jeweiligem Listenelement verbunden, wenn Tabellenelement verändert, dann wird es direkt in den Properties der Liste hinterlegt -->
                                 
                             </DataTemplate>
                         </GridViewColumn.CellTemplate>
                     </GridViewColumn>
-                    <GridViewColumn Header="Kategorie">
+                    <GridViewColumn Header="Kategorie" Width="150">
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
                                 <ComboBox ItemsSource="{Binding Source={x:Static local:KategorienValues.All}}"
-                                          SelectedItem="{Binding Kategorie, UpdateSourceTrigger=PropertyChanged}" />
+                                          SelectedItem="{Binding Kategorie, UpdateSourceTrigger=PropertyChanged}"
+                                          HorizontalAlignment="Center"  Width="130"/>
                             </DataTemplate>
                         </GridViewColumn.CellTemplate>
                     </GridViewColumn>
-                    <GridViewColumn Header="Menge">
+                    <GridViewColumn Header="Menge" Width="75">
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
-                                <TextBox Text="{Binding Menge, UpdateSourceTrigger=PropertyChanged, ValidatesOnExceptions=True, NotifyOnValidationError=True}" />
+                                <TextBox Text="{Binding Menge, UpdateSourceTrigger=PropertyChanged, ValidatesOnExceptions=True, NotifyOnValidationError=True}"
+                                         HorizontalAlignment="Center" TextAlignment="Center" Width="55"/>
                                 <!-- Abfangen von falschen Eingaben, also Buchstaben oder Sonderzeichen bei den Zahlen -->
                             </DataTemplate>
                         </GridViewColumn.CellTemplate>
                     </GridViewColumn>
-                    <GridViewColumn Header="Preis">
+                    <GridViewColumn Header="Preis" Width="75">
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
-                                <TextBox Text="{Binding Preis, UpdateSourceTrigger=PropertyChanged, ValidatesOnExceptions=True, NotifyOnValidationError=True}" />
+                                <TextBox Text="{Binding Preis, UpdateSourceTrigger=PropertyChanged, ValidatesOnExceptions=True, NotifyOnValidationError=True}"
+                                         HorizontalAlignment="Center" TextAlignment="Center" Width="55"/>
                             </DataTemplate>
                         </GridViewColumn.CellTemplate>
                     </GridViewColumn>
-                    <GridViewColumn Header="Artikel löschen">
+                    <GridViewColumn Header="Artikel löschen" Width="150">
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
                                 <Grid>
@@ -52,8 +56,8 @@
                                             BorderThickness="0"
                                             Foreground="Black"
                                             Cursor="Hand"
-                                            HorizontalAlignment="Right"
-                                            Width="20"
+                                            HorizontalAlignment="Center"
+                                            Width="150"
                                             Click="Loeschen_Click"/>
                                 </Grid>
                             </DataTemplate>
@@ -65,7 +69,7 @@
         
         
 
-        <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom">
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" Margin="35,10">
             <Button Content = "Artikel Hinzufügen" Margin="5" Click="ArtikelHinzufügen_Click"/>
         <Button Content ="Einkaufsliste speichern" Margin="5" Click="ListeSpeichern_Click"/>
             <Button Content ="Kosten hinzufügen" Margin="5" Click="AddKosten_Click"/>
