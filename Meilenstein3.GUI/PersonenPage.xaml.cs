@@ -31,24 +31,19 @@ namespace Meilenstein3.GUI
             
         }
 
-        private void Loeschen_Click(object sender, RoutedEventArgs e)
-        {
+       private void Loeschen_Click(object sender, RoutedEventArgs e)
+    {
+    var button = sender as Button;
+    var person = button?.Tag as Meilenstein3.Person.Personen;
 
-            // Den Button casten
-var button = sender as Button;
+    if (person != null && PersonenListe.Contains(person))
+    {
+        PersonenListe.Remove(person);
 
-// Die gebundene Person aus dem Tag holen
-var person = button?.Tag as Meilenstein3.Person.Personen;
-
-// Wenn alles korrekt ist: aus der ObservableCollection entfernen
-if (person != null && PersonenListe.Contains(person))
-{
-    PersonenListe.Remove(person);
-}
-
-
-               
-            
-        }
+        // Nach dem Entfernen: Liste speichern
+        var linkedList = new LinkedList<Meilenstein3.Person.Personen>(PersonenListe);
+        Meilenstein3.Person.Personen.SpeicherePersonenListe(linkedList);
+    }
+    }
     }
 }
