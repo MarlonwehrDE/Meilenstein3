@@ -65,7 +65,7 @@ namespace Meilenstein3.GUI
                 MessageBox.Show("Vor- und Nachname dürfen nur Buchstaben enthalten.");
                 return;
             }
-
+            FinanzmanagerPage.AddGehaltPersonen(einkommen, vorname);
             // Objekt erstellen und zur Liste hinzufügen
             Meilenstein3.Person.Personen neuePerson = new Personen(vorname, nachname, geburtstag, einkommen, erwerbstaetig);
             personenListe.AddLast(neuePerson);
