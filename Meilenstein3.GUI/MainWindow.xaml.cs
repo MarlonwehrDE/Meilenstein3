@@ -13,8 +13,10 @@ namespace Meilenstein3.GUI;
 public partial class MainWindow : Window
 {
     private readonly EinkaufslistePage _einkaufslistePage = new EinkaufslistePage(); //readonly, damit nur einmal gesetzt wird, und danach nicht mehr verändert werden kann
-    private readonly PersonenPage _personenPage = new PersonenPage();
     private readonly FinanzmanagerPage _finanzmanagerPage = new FinanzmanagerPage();
+    private readonly PersonenPage _personenPage = new PersonenPage();
+    
+   
 
     public MainWindow()
     {

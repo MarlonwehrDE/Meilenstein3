@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\obj\Debug\net8.0-windows\
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.GUI\obj\Debug\net8.0-windows\
 Meilenstein3.GUI
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-D:\06 Bildung\TH Nürnberg\Semester 2\Meilenstein3\Meilenstein3.GUI\App.xaml
+C:\Users\BEN\RiderProjects\Meilenstein3_WPF2\Meilenstein3.GUI\App.xaml
 6-792007916
 
 91075696338
-2021593510073
+2021173934703
 EinkaufslistePage.xaml;FinanzmanagerPage.xaml;MainWindow.xaml;PersonAnlegenPage.xaml;PersonenPage.xaml;TransaktionenWindow.xaml;
 
 False

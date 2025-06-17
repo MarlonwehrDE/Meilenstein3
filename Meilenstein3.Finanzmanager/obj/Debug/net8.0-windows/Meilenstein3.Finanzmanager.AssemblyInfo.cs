@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Meilenstein3.Finanzmanager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9bf6074d3c3587c15d273b87942b50a59c0c1985")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fcdf69c28a708ab3d827542dd78b9ddad7d3575f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Meilenstein3.Finanzmanager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Meilenstein3.Finanzmanager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

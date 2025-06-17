@@ -87,48 +87,41 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\marlo\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\BEN\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\06 Bildung\\TH Nürnberg\\Semester 2\\Meilenstein3\\Meilenstein3.GUI\\Meilenstein3.GUI.csproj",
+      "projectUniqueName": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.GUI\\Meilenstein3.GUI.csproj",
       "projectName": "Meilenstein3.GUI",
-      "projectPath": "D:\\06 Bildung\\TH Nürnberg\\Semester 2\\Meilenstein3\\Meilenstein3.GUI\\Meilenstein3.GUI.csproj",
-      "packagesPath": "C:\\Users\\marlo\\.nuget\\packages\\",
-      "outputPath": "D:\\06 Bildung\\TH Nürnberg\\Semester 2\\Meilenstein3\\Meilenstein3.GUI\\obj\\",
+      "projectPath": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.GUI\\Meilenstein3.GUI.csproj",
+      "packagesPath": "C:\\Users\\BEN\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.GUI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\marlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "G:\\AppData\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0-windows"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "D:\\06 Bildung\\TH Nürnberg\\Semester 2\\Meilenstein3\\Meilenstein3.Aufgaben\\Meilenstein3.Aufgaben.csproj": {
-              "projectPath": "D:\\06 Bildung\\TH Nürnberg\\Semester 2\\Meilenstein3\\Meilenstein3.Aufgaben\\Meilenstein3.Aufgaben.csproj"
+            "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Aufgaben\\Meilenstein3.Aufgaben.csproj": {
+              "projectPath": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Aufgaben\\Meilenstein3.Aufgaben.csproj"
             },
-            "D:\\06 Bildung\\TH Nürnberg\\Semester 2\\Meilenstein3\\Meilenstein3.Einkaufsliste\\Meilenstein3.Einkaufsliste.csproj": {
-              "projectPath": "D:\\06 Bildung\\TH Nürnberg\\Semester 2\\Meilenstein3\\Meilenstein3.Einkaufsliste\\Meilenstein3.Einkaufsliste.csproj"
+            "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Einkaufsliste\\Meilenstein3.Einkaufsliste.csproj": {
+              "projectPath": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Einkaufsliste\\Meilenstein3.Einkaufsliste.csproj"
             },
-            "D:\\06 Bildung\\TH Nürnberg\\Semester 2\\Meilenstein3\\Meilenstein3.Finanzmanager\\Meilenstein3.Finanzmanager.csproj": {
-              "projectPath": "D:\\06 Bildung\\TH Nürnberg\\Semester 2\\Meilenstein3\\Meilenstein3.Finanzmanager\\Meilenstein3.Finanzmanager.csproj"
+            "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Finanzmanager\\Meilenstein3.Finanzmanager.csproj": {
+              "projectPath": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Finanzmanager\\Meilenstein3.Finanzmanager.csproj"
             },
-            "D:\\06 Bildung\\TH Nürnberg\\Semester 2\\Meilenstein3\\Meilenstein3.Person\\Meilenstein3.Person.csproj": {
-              "projectPath": "D:\\06 Bildung\\TH Nürnberg\\Semester 2\\Meilenstein3\\Meilenstein3.Person\\Meilenstein3.Person.csproj"
+            "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Person\\Meilenstein3.Person.csproj": {
+              "projectPath": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Person\\Meilenstein3.Person.csproj"
             }
           }
         }
@@ -166,7 +159,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.313/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "E:\\Program Files\\dotnet\\sdk\\8.0.411/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

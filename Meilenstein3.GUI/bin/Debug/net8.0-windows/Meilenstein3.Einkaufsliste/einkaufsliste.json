@@ -1,29 +1,8 @@
 [
   {
-    "Artikelbezeichnung": "Neuer Eintrag",
-    "Menge": 0,
-    "Preis": 0,
-    "Kategorie": 6,
-    "Gekauft": false
-  },
-  {
-    "Artikelbezeichnung": "Neuer Eintrag",
-    "Menge": 0,
-    "Preis": 0,
-    "Kategorie": 6,
-    "Gekauft": false
-  },
-  {
-    "Artikelbezeichnung": "Neuer Eintrag",
-    "Menge": 0,
-    "Preis": 0,
-    "Kategorie": 6,
-    "Gekauft": false
-  },
-  {
-    "Artikelbezeichnung": "Neuer Eintrag",
-    "Menge": 0,
-    "Preis": 0,
+    "Artikelbezeichnung": "soos",
+    "Menge": 1,
+    "Preis": 2,
     "Kategorie": 6,
     "Gekauft": false
   }
