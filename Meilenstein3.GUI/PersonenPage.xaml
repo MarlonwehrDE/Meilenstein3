@@ -61,7 +61,7 @@
                         </GridViewColumn.CellTemplate>
                     </GridViewColumn>
 
-                    <GridViewColumn Header="Artikel löschen">
+                    <GridViewColumn Header="Person entfernen">
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
                                 <Grid>
