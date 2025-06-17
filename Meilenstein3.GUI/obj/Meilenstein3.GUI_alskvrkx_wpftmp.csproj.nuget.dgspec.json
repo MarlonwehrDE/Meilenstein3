@@ -1,0 +1,356 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\adada\\Meilenstein3.GUI\\Meilenstein3.GUI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\adada\\Meilenstein3.Aufgaben\\Meilenstein3.Aufgaben.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\adada\\Meilenstein3.Aufgaben\\Meilenstein3.Aufgaben.csproj",
+        "projectName": "Meilenstein3.Aufgaben",
+        "projectPath": "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\adada\\Meilenstein3.Aufgaben\\Meilenstein3.Aufgaben.csproj",
+        "packagesPath": "C:\\Users\\daric\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\adada\\Meilenstein3.Aufgaben\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\daric\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.314/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\adada\\Meilenstein3.Einkaufsliste\\Meilenstein3.Einkaufsliste.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\adada\\Meilenstein3.Einkaufsliste\\Meilenstein3.Einkaufsliste.csproj",
+        "projectName": "Meilenstein3.Einkaufsliste",
+        "projectPath": "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\adada\\Meilenstein3.Einkaufsliste\\Meilenstein3.Einkaufsliste.csproj",
+        "packagesPath": "C:\\Users\\daric\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\adada\\Meilenstein3.Einkaufsliste\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\daric\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.314/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\adada\\Meilenstein3.Finanzmanager\\Meilenstein3.Finanzmanager.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\adada\\Meilenstein3.Finanzmanager\\Meilenstein3.Finanzmanager.csproj",
+        "projectName": "Meilenstein3.Finanzmanager",
+        "projectPath": "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\adada\\Meilenstein3.Finanzmanager\\Meilenstein3.Finanzmanager.csproj",
+        "packagesPath": "C:\\Users\\daric\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\adada\\Meilenstein3.Finanzmanager\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\daric\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.314/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\adada\\Meilenstein3.GUI\\Meilenstein3.GUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\adada\\Meilenstein3.GUI\\Meilenstein3.GUI.csproj",
+        "projectName": "Meilenstein3.GUI",
+        "projectPath": "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\adada\\Meilenstein3.GUI\\Meilenstein3.GUI.csproj",
+        "packagesPath": "C:\\Users\\daric\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\adada\\Meilenstein3.GUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\daric\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\adada\\Meilenstein3.Aufgaben\\Meilenstein3.Aufgaben.csproj": {
+                "projectPath": "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\adada\\Meilenstein3.Aufgaben\\Meilenstein3.Aufgaben.csproj"
+              },
+              "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\adada\\Meilenstein3.Einkaufsliste\\Meilenstein3.Einkaufsliste.csproj": {
+                "projectPath": "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\adada\\Meilenstein3.Einkaufsliste\\Meilenstein3.Einkaufsliste.csproj"
+              },
+              "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\adada\\Meilenstein3.Finanzmanager\\Meilenstein3.Finanzmanager.csproj": {
+                "projectPath": "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\adada\\Meilenstein3.Finanzmanager\\Meilenstein3.Finanzmanager.csproj"
+              },
+              "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\adada\\Meilenstein3.Person\\Meilenstein3.Person.csproj": {
+                "projectPath": "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\adada\\Meilenstein3.Person\\Meilenstein3.Person.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.314/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\adada\\Meilenstein3.Person\\Meilenstein3.Person.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\adada\\Meilenstein3.Person\\Meilenstein3.Person.csproj",
+        "projectName": "Meilenstein3.Person",
+        "projectPath": "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\adada\\Meilenstein3.Person\\Meilenstein3.Person.csproj",
+        "packagesPath": "C:\\Users\\daric\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\adada\\Meilenstein3.Person\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\daric\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.314/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

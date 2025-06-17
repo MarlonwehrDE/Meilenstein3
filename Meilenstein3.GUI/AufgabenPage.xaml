@@ -30,12 +30,16 @@
         <Rectangle HorizontalAlignment="Left" Height="37" Margin="465,99,0,0" Stroke="Green" VerticalAlignment="Top" Width="40" Grid.Column="1" Fill="Green"/>
         <Rectangle HorizontalAlignment="Left" Height="37" Margin="558,99,0,0" Stroke="Red" VerticalAlignment="Top" Width="40" Grid.Column="1" Fill="Red"/>
         <Rectangle Grid.Column="1" HorizontalAlignment="Left" Height="118" Margin="444,69,0,0" Stroke="Black" VerticalAlignment="Top" Width="183"/>
-        <Image x:Name="info" Grid.Column="1" HorizontalAlignment="Left" Height="50" Margin="608,32,0,0" VerticalAlignment="Top" Width="50" Source="/info.png"/>
-        <TextBlock HorizontalAlignment="Left" Margin="284,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="17" Grid.Column="1"><Run Language="de-de" Text="Automatisches setzen"/></TextBlock>
-        
-        <TextBlock HorizontalAlignment="Left" Margin="126,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="17" Grid.Column="1"><Run Language="de-de" Text="Person auswählen"/></TextBlock>
-        <ComboBox Grid.Column="1" HorizontalAlignment="Left" Margin="126,64,0,0" VerticalAlignment="Top" Width="120">
-            
-        </ComboBox>
+
+        <TextBlock HorizontalAlignment="Left" Margin="220,29,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="17" Grid.Column="1"><Run Language="de-de" Text="Person auswählen"/></TextBlock>
+        <StackPanel Grid.Column="1" Margin="145,64,425,-64" >
+            <ComboBox x:Name="comboAufgabe1" SelectionChanged="ComboBox_SelectionChanged" Margin="0,0,0,50"/>
+            <ComboBox x:Name="comboAufgabe2" SelectionChanged="ComboBox_SelectionChanged" Margin="0,0,0,50"/>
+            <ComboBox x:Name="comboAufgabe3" SelectionChanged="ComboBox_SelectionChanged" Margin="0,0,0,50"/>
+            <ComboBox x:Name="comboAufgabe4" SelectionChanged="ComboBox_SelectionChanged" Margin="0,0,0,54"/>
+            <ComboBox x:Name="comboAufgabe5" SelectionChanged="ComboBox_SelectionChanged" Margin="0,0,0,50"/>
+            <ComboBox x:Name="comboAufgabe6" SelectionChanged="ComboBox_SelectionChanged" Margin="0,0,0,50"/>
+        </StackPanel>
+        <Image Grid.Column="1" HorizontalAlignment="Left" Height="51" Margin="608,29,0,0" VerticalAlignment="Top" Width="51" Source="/info.png"/>
     </Grid>
 </Page>

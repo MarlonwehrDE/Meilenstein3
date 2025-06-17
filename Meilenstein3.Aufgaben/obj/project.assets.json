@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Aufgaben\\Meilenstein3.Aufgaben.csproj",
+      "projectUniqueName": "C:\\Users\\BEN\\Documents\\Meilenstein 3 FINAL\\Meilenstein3.Aufgaben\\Meilenstein3.Aufgaben.csproj",
       "projectName": "Meilenstein3.Aufgaben",
-      "projectPath": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Aufgaben\\Meilenstein3.Aufgaben.csproj",
+      "projectPath": "C:\\Users\\BEN\\Documents\\Meilenstein 3 FINAL\\Meilenstein3.Aufgaben\\Meilenstein3.Aufgaben.csproj",
       "packagesPath": "C:\\Users\\BEN\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BEN\\RiderProjects\\Meilenstein3_WPF2\\Meilenstein3.Aufgaben\\obj\\",
+      "outputPath": "C:\\Users\\BEN\\Documents\\Meilenstein 3 FINAL\\Meilenstein3.Aufgaben\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "G:\\AppData\\NuGet\\NuGet.Config"

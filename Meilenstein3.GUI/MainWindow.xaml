@@ -1,4 +1,4 @@
-﻿    <Window x:Class="Meilenstein3.GUI.MainWindow"
+﻿<Window x:Class="Meilenstein3.GUI.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -73,16 +73,16 @@
         </Style>
     </Window.Resources>
     <Grid>
-        
+
         <StackPanel Orientation="Horizontal" >
 
             <Button Style="{StaticResource ButtonStyle}" Content = "Einkaufsliste" Margin="10" Click="Einkaufsliste_Click" VerticalAlignment="Top" Width="101"/>
             <Button Style="{StaticResource ButtonStyle}" Content="Finanzmanager" Margin="10" Click="Finanzmanager_Click" VerticalAlignment="Top" Width="121"/>
             <Button Style="{StaticResource ButtonStyle}" Content = "Personen" Click="Personen_Click" Margin="10" VerticalAlignment="Top" Width="78" />
             <Button Style="{StaticResource ButtonStyle}" Content="Aufgaben" Click="Aufgaben_Click" Margin="10" VerticalAlignment="Top" Width="82"/>
-    
+
         </StackPanel>
-        
+        <Image Height="80" Margin="920,0,0,0" Source="/logo.png" VerticalAlignment="Top" />
         <Frame x:Name="MainFrame" Margin="0,61,0,0" NavigationUIVisibility="Hidden" Background="LightGray"/>
 
     </Grid>

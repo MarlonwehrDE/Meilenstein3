@@ -1,0 +1,136 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\Meilenstein 3 FINAL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DE447430-924F-4CA4-9A73-33C5F5AA8254}|Meilenstein3.GUI\\Meilenstein3.GUI.csproj|c:\\users\\daric\\downloads\\meilenstein3-main\\meilenstein 3 final\\meilenstein3.gui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DE447430-924F-4CA4-9A73-33C5F5AA8254}|Meilenstein3.GUI\\Meilenstein3.GUI.csproj|solutionrelative:meilenstein3.gui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE447430-924F-4CA4-9A73-33C5F5AA8254}|Meilenstein3.GUI\\Meilenstein3.GUI.csproj|c:\\users\\daric\\downloads\\meilenstein3-main\\meilenstein 3 final\\meilenstein3.gui\\aufgabenpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DE447430-924F-4CA4-9A73-33C5F5AA8254}|Meilenstein3.GUI\\Meilenstein3.GUI.csproj|solutionrelative:meilenstein3.gui\\aufgabenpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE447430-924F-4CA4-9A73-33C5F5AA8254}|Meilenstein3.GUI\\Meilenstein3.GUI.csproj|c:\\users\\daric\\downloads\\meilenstein3-main\\meilenstein 3 final\\meilenstein3.gui\\aufgabenpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE447430-924F-4CA4-9A73-33C5F5AA8254}|Meilenstein3.GUI\\Meilenstein3.GUI.csproj|solutionrelative:meilenstein3.gui\\aufgabenpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE447430-924F-4CA4-9A73-33C5F5AA8254}|Meilenstein3.GUI\\Meilenstein3.GUI.csproj|c:\\users\\daric\\downloads\\meilenstein3-main\\meilenstein 3 final\\meilenstein3.gui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DE447430-924F-4CA4-9A73-33C5F5AA8254}|Meilenstein3.GUI\\Meilenstein3.GUI.csproj|solutionrelative:meilenstein3.gui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10B1CC3A-D504-40C3-B96B-A0E1D4345A0D}|Meilenstein3.Person\\Meilenstein3.Person.csproj|c:\\users\\daric\\downloads\\meilenstein3-main\\meilenstein 3 final\\meilenstein3.person\\personen.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{10B1CC3A-D504-40C3-B96B-A0E1D4345A0D}|Meilenstein3.Person\\Meilenstein3.Person.csproj|solutionrelative:meilenstein3.person\\personen.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{10B1CC3A-D504-40C3-B96B-A0E1D4345A0D}|Meilenstein3.Person\\Meilenstein3.Person.csproj|c:\\users\\daric\\downloads\\meilenstein3-main\\meilenstein 3 final\\meilenstein3.person\\personen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{10B1CC3A-D504-40C3-B96B-A0E1D4345A0D}|Meilenstein3.Person\\Meilenstein3.Person.csproj|solutionrelative:meilenstein3.person\\personen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DE447430-924F-4CA4-9A73-33C5F5AA8254}|Meilenstein3.GUI\\Meilenstein3.GUI.csproj|c:\\users\\daric\\downloads\\meilenstein3-main\\meilenstein 3 final\\meilenstein3.gui\\binpersonen.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DE447430-924F-4CA4-9A73-33C5F5AA8254}|Meilenstein3.GUI\\Meilenstein3.GUI.csproj|solutionrelative:meilenstein3.gui\\binpersonen.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "binpersonen.json",
+              "DocumentMoniker": "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\Meilenstein 3 FINAL\\Meilenstein3.GUI\\binpersonen.json",
+              "RelativeDocumentMoniker": "Meilenstein3.GUI\\binpersonen.json",
+              "ToolTip": "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\Meilenstein 3 FINAL\\Meilenstein3.GUI\\binpersonen.json",
+              "RelativeToolTip": "Meilenstein3.GUI\\binpersonen.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-17T21:21:08.162Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\Meilenstein 3 FINAL\\Meilenstein3.GUI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Meilenstein3.GUI\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\Meilenstein 3 FINAL\\Meilenstein3.GUI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Meilenstein3.GUI\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAkwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T21:42:34.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\Meilenstein 3 FINAL\\Meilenstein3.GUI\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Meilenstein3.GUI\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\Meilenstein 3 FINAL\\Meilenstein3.GUI\\MainWindow.xaml",
+              "RelativeToolTip": "Meilenstein3.GUI\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-17T21:42:30.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AufgabenPage.xaml",
+              "DocumentMoniker": "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\Meilenstein 3 FINAL\\Meilenstein3.GUI\\AufgabenPage.xaml",
+              "RelativeDocumentMoniker": "Meilenstein3.GUI\\AufgabenPage.xaml",
+              "ToolTip": "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\Meilenstein 3 FINAL\\Meilenstein3.GUI\\AufgabenPage.xaml",
+              "RelativeToolTip": "Meilenstein3.GUI\\AufgabenPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-17T21:30:59.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AufgabenPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\Meilenstein 3 FINAL\\Meilenstein3.GUI\\AufgabenPage.xaml.cs",
+              "RelativeDocumentMoniker": "Meilenstein3.GUI\\AufgabenPage.xaml.cs",
+              "ToolTip": "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\Meilenstein 3 FINAL\\Meilenstein3.GUI\\AufgabenPage.xaml.cs",
+              "RelativeToolTip": "Meilenstein3.GUI\\AufgabenPage.xaml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAUwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T21:05:44.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Personen.cs",
+              "DocumentMoniker": "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\Meilenstein 3 FINAL\\Meilenstein3.Person\\Personen.cs",
+              "RelativeDocumentMoniker": "Meilenstein3.Person\\Personen.cs",
+              "ToolTip": "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\Meilenstein 3 FINAL\\Meilenstein3.Person\\Personen.cs",
+              "RelativeToolTip": "Meilenstein3.Person\\Personen.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T20:59:31.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Personen.json",
+              "DocumentMoniker": "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\Meilenstein 3 FINAL\\Meilenstein3.Person\\Personen.json",
+              "RelativeDocumentMoniker": "Meilenstein3.Person\\Personen.json",
+              "ToolTip": "C:\\Users\\daric\\Downloads\\Meilenstein3-main\\Meilenstein 3 FINAL\\Meilenstein3.Person\\Personen.json",
+              "RelativeToolTip": "Meilenstein3.Person\\Personen.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-17T20:59:58.974Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
